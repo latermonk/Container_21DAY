@@ -1,7 +1,38 @@
 # Container_21DAY
 
+---
+@All
 
-华为云21天的内容
+# 重要通知：
+
+Dear DevClouder：
+
+感谢您参与华为云DevClouder&云容器服务联合推出的——【21天转型容器实战营】
+
+（1）明天起（12月4日）本期课程就要开课啦！
+
+今天是招募期最后一天，原则上招募期后不再接受报名，如您身边有朋友、同事需要进群学习，请尽快联系@运营助手_DevCloud
+
+（2）本期课程实践操作依托华为云平台，请您务必注册并完成账户实名认证！
+
+[https://auth.huaweicloud.com/authui/login?locale=zh-cn&service=https://activity.huaweicloud.com/21days_cce/index.html&type=loginback#/login](https://auth.huaweicloud.com/authui/login?locale=zh-cn&service=https://activity.huaweicloud.com/21days_cce/index.html&type=loginback#/login)
+
+（3）打卡程序和代金券、实物奖品抽奖资格关联，请您务必务必报名关注！
+
+[https://sun.sharedaka.com/v2/habit/share_h5/visit?habitId=1569266&openId=ochvq0ImvAY-hi-iFk22uUhT3yTk&code=b3e264&byUserId=ochvq0ImvAY-hi-iFk22uUhT3yTk](https://sun.sharedaka.com/v2/habit/share_h5/visit?habitId=1569266&openId=ochvq0ImvAY-hi-iFk22uUhT3yTk&code=b3e264&byUserId=ochvq0ImvAY-hi-iFk22uUhT3yTk) 
+
+（4）上周五活动流程培训已经完成，关键信息回顾请查阅“百宝箱”，如零有疑问请私信助手！
+
+[https://bbs.huaweicloud.com/forum/forum.php?mod=viewthread&tid=12915&page=1&extra=#pid41669](https://bbs.huaweicloud.com/forum/forum.php?mod=viewthread&tid=12915&page=1&extra=#pid41669)
+
+（5）另外，本期活动设置特别奖励，课程期间通过CKA认证，既有机会获得华为手环，又拿证又拿奖！具体介绍如下：
+
+[https://bbs.huaweicloud.com/forum/thread-12803-1-1.html](https://bbs.huaweicloud.com/forum/thread-12803-1-1.html)
+
+
+---
+
+# 华为云21天的内容
 
 ## DAY01
 ## DAY02
