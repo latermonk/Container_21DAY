@@ -28,3 +28,5 @@ https://education.huaweicloud.com:8443/courses/course-v1:HuaweiX+CBUCNXI010+Self
 1.将以下页面截图进行打卡
 2.提交华为云账户名！！！【账户名请确认是实名认证的个人帐户类型】
 
+
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY01/PNG/DAY0102.png)
