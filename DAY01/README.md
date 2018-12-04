@@ -3,30 +3,37 @@
 
 1、今天将发放代金券，请您在完成打卡任务后，在打卡程序中同时提交打卡截图、和您的华为云账户名【您成功登陆华为云后，页面右上角显示的ID名称】
 
+
 2、请确认华为云账户为【个人】（企业账户不可以）、【实名认证】的账户，否则可能会发放失败！
+
 
 3、代金券12月6日生效，7日的实践操作将消费，请周知！
 
+
 4、查询代金券是否到账：华为云首页--控制台--费用--优惠与折；代金券分批发放，请您耐心等待，
+
 
 5、代金券金额经过严格计算，用于购买本次课程学习所需资源，请勿私自操作消费，如因您操作失误导致超额消费，无法无您补足，请千万注意！！！另外，代金券发放后请勿进行提现操作！
 
-4、咨询群内答疑专家请@小助手=华为云K8S群
+
+4、咨询群内答疑专家请@小助手=华为云K8S群  
 
 5、课程流程问题请您有限查阅百宝箱或私信助手酱
+
 https://bbs.huaweicloud.com/forum/forum.php?mod=viewthread&tid=12915&page=1&extra=#pid41669
+
 ----------------------------
 
-DAY1  了解容器的基础知识
-课程资料下载:
-https://education.huaweicloud.com:8443/courses/course-v1:HuaweiX+CBUCNXI010+Self-paced/courseware/ffb7f247f81d418a86c7da0c32dc98ca/4fec39b2b3c9471ea5969764e9f3a4f5/
+DAY1  了解容器的基础知识   
+课程资料下载:      
+https://education.huaweicloud.com:8443/courses/course-v1:HuaweiX+CBUCNXI010+Self-paced/courseware/ffb7f247f81d418a86c7da0c32dc98ca/4fec39b2b3c9471ea5969764e9f3a4f5/    
 
 实践练习：
-本日对容器的基础概念进行了介绍，为考量学习效果，请大家完成问答题。
+本日对容器的基础概念进行了介绍，为考量学习效果，请大家完成问答题。   
 
 打卡任务：
-1.将以下页面截图进行打卡
-2.提交华为云账户名！！！【账户名请确认是实名认证的个人帐户类型】
+1.将以下页面截图进行打卡    
+2.提交华为云账户名！！！【账户名请确认是实名认证的个人帐户类型】    
 
 
 ![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY01/PNG/DAY0102.png)
