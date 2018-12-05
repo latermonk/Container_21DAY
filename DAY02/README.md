@@ -24,7 +24,7 @@ DAY2 了解容器的基础知识
 
 课程资料下载【课堂入口】[https://education.huaweicloud.com:8443/courses/course-v1:HuaweiX+CBUCNXI010+Self-paced/courseware/c0f33bce27a44bd5a6dc4224d16c7884/37aae7255fde46899d22c3b68887ac33/](https://education.huaweicloud.com:8443/courses/course-v1:HuaweiX+CBUCNXI010+Self-paced/courseware/c0f33bce27a44bd5a6dc4224d16c7884/37aae7255fde46899d22c3b68887ac33/)
 
-【打卡入口】[https://sun.sharedaka.com/v2/habit/share_h5/visit?habitId=1569266&openId=ochvq0ImvAY-hi-iFk22uUhT3yTk&code=b3e264&byUserId=ochvq0ImvAY-hi-iFk22uUhT3yTk](https://sun.sharedaka.com/v2/habit/share_h5/visit?habitId=1569266&openId=ochvq0ImvAY-hi-iFk22uUhT3yTk&code=b3e264&byUserId=ochvq0ImvAY-hi-iFk22uUhT3yTk) 
+【打卡入口】[https://sun.sharedaka.com/v2/habit/share_h5/visit?habitId=1569266&openId=ochvq0ImvAY-hi-iFk22uUhT3yTk&code=b3e264&byUserId=ochvq0ImvAY-hi-iFk22uUhT3yTk](https://sun.sharedaka.com/v2/habit/share_h5/visit?habitId=1569266&openId=ochvq0ImvAY-hi-iFk22uUhT3yTk&code=b3e264&byUserId=ochvq0ImvAY-hi-iFk22uUhT3yTk) 
 
 【实践练习】
 
@@ -39,3 +39,8 @@ DAY2 了解容器的基础知识
 已打卡但打卡不规范的同学，如果只修改或者补充文字内容，可以通过评论添加；如果图片部分需修改补充，可以删除打卡重新打。删除打卡重打仅支持当日操作。
 
 今日共发放代金券744张，4号19点28分39秒之前打卡并提交了正确的华为云用户名的同学，如账户名提交无误，均已发放了代金券！剩余代金券将于今日继续发放，请您耐心等待，感谢！
+
+----
+
+
+
