@@ -39,3 +39,6 @@ DAY3 手把手教您运行一个镜像
 【打卡任务】
 
 请将本地执行的命令行以及成功访问tank容器应用的截图进行打卡。截图示例见打卡程序和操作文档，也就是下面两张图↓
+
+
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY03/PNG/DAY0301.png)
