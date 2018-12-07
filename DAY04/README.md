@@ -33,3 +33,10 @@ DAY4 容器进阶之kubernetes 基础知识介绍
 【打卡任务】
 
 截图CCE集群，截图kubectl get nodes/kubectl get pods --all-namespace命令行执行结果。截图示例见打卡程序和操作文档。
+
+
+-------
+
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY04/PNG/DAY0400.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY04/PNG/DAY0401.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY04/PNG/DAY0402.png)
