@@ -31,3 +31,10 @@
 【打卡任务】
 
 将所用命令、创建的Pod完整yaml截图上传截图示例见打卡程序和操作文档。
+
+-----
+
+
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY05/PNG/DAY0501.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY05/PNG/DAY0502.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY05/PNG/DAY0503.png)
