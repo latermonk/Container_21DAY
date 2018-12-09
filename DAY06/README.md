@@ -31,3 +31,10 @@ DAY6 容器进阶之Kubernetes pod调度实战
 将作业1、2的调度场景的实例列表截图和对应的YAML截图上传
 
 将作业3的调度失败的实例事件截图上传（选做）
+
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY06/PNG/DAY0601.jpg)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY06/PNG/DAY0602.jpg)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY06/PNG/DAY0603.jpg)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY06/PNG/DAY0604.jpg)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY06/PNG/DAY0605.jpg)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY06/PNG/DAY0606.jpg)
