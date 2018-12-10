@@ -35,3 +35,11 @@ DAY7 容器进阶之Kubernetes 应用生命周期原理分析
 打卡任务：
 
 将所用命令、创建的Deployment完整yaml和升级历史信息截图上传
+
+
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY07/PNG/DAY0701.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY07/PNG/DAY0702.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY07/PNG/DAY0703.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY07/PNG/DAY0704.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY07/PNG/DAY0705.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY07/PNG/DAY0706.png)
