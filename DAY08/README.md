@@ -35,3 +35,18 @@ DAY8 容器进阶之Kubernetes 应用生命周期实战
 1、坦克大战访问页面及镜像更新后的nginx页面截图
 
 2、应用弹性伸缩记录的截图（选做）
+
+
+----
+
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY08/PNG/DAY0801.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY08/PNG/DAY0802.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY08/PNG/DAY0803.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY08/PNG/DAY0804.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY08/PNG/DAY0805.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY08/PNG/DAY0806.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY08/PNG/DAY0807.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY08/PNG/DAY0808.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY08/PNG/DAY0809.png)
+
+
