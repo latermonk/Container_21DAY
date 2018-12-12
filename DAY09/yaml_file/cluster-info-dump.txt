@@ -1,0 +1,3890 @@
+{
+    "selfLink": "/api/v1/nodes",
+    "resourceVersion": "27970",
+    "Items": [
+        {
+            "name": "192.168.0.110",
+            "selfLink": "/api/v1/nodes/192.168.0.110",
+            "uid": "8d9ef760-fdb2-11e8-ad14-fa163e4e1734",
+            "resourceVersion": "27946",
+            "creationTimestamp": "2018-12-12T02:06:35Z",
+            "labels": {
+                "beta.kubernetes.io/arch": "amd64",
+                "beta.kubernetes.io/os": "linux",
+                "failure-domain.beta.kubernetes.io/region": "cn-north-1",
+                "failure-domain.beta.kubernetes.io/zone": "cn-north-1c",
+                "kubernetes.io/availablezone": "cn-north-1c",
+                "kubernetes.io/hostname": "192.168.0.110",
+                "os.architecture": "amd64",
+                "os.name": "EulerOS_2.0_SP2",
+                "os.version": "3.10.0-327.62.59.83.h96.x86_64",
+                "supportContainer": "true"
+            },
+            "annotations": {
+                "huawei.com/gpu-status": "[]",
+                "node.alpha.kubernetes.io/ttl": "0"
+            },
+            "Spec": {
+                "PodCIDR": "",
+                "ExternalID": "192.168.0.110",
+                "ProviderID": "baf1c68b-fdb1-11e8-996e-0255ac101f20",
+                "Unschedulable": false,
+                "Taints": null,
+                "ConfigSource": null
+            },
+            "Status": {
+                "Capacity": {
+                    "cpu": "2",
+                    "ephemeral-storage": "10186004Ki",
+                    "hugepages-1Gi": "0",
+                    "hugepages-2Mi": "0",
+                    "memory": "3865340Ki",
+                    "pods": "110"
+                },
+                "Allocatable": {
+                    "cpu": "1930m",
+                    "ephemeral-storage": "9387421271",
+                    "hugepages-1Gi": "0",
+                    "hugepages-2Mi": "0",
+                    "memory": "2136828Ki",
+                    "pods": "110"
+                },
+                "Phase": "Running",
+                "Conditions": [
+                    {
+                        "Type": "OutOfDisk",
+                        "Status": "False",
+                        "LastHeartbeatTime": "2018-12-12T05:19:40Z",
+                        "LastTransitionTime": "2018-12-12T02:06:32Z",
+                        "Reason": "KubeletHasSufficientDisk",
+                        "Message": "kubelet has sufficient disk space available"
+                    },
+                    {
+                        "Type": "MemoryPressure",
+                        "Status": "False",
+                        "LastHeartbeatTime": "2018-12-12T05:19:40Z",
+                        "LastTransitionTime": "2018-12-12T02:06:32Z",
+                        "Reason": "KubeletHasSufficientMemory",
+                        "Message": "kubelet has sufficient memory available"
+                    },
+                    {
+                        "Type": "NetworkCardNotFound",
+                        "Status": "False",
+                        "LastHeartbeatTime": "2018-12-12T05:19:40Z",
+                        "LastTransitionTime": "2018-12-12T02:06:32Z",
+                        "Reason": "NetworkCardFound",
+                        "Message": "network card has found"
+                    },
+                    {
+                        "Type": "DiskPressure",
+                        "Status": "False",
+                        "LastHeartbeatTime": "2018-12-12T05:19:40Z",
+                        "LastTransitionTime": "2018-12-12T02:06:32Z",
+                        "Reason": "KubeletHasNoDiskPressure",
+                        "Message": "kubelet has no disk pressure"
+                    },
+                    {
+                        "Type": "PIDPressure",
+                        "Status": "False",
+                        "LastHeartbeatTime": "2018-12-12T05:19:40Z",
+                        "LastTransitionTime": "2018-12-12T02:06:32Z",
+                        "Reason": "KubeletHasSufficientPID",
+                        "Message": "kubelet has sufficient PID available"
+                    },
+                    {
+                        "Type": "Ready",
+                        "Status": "True",
+                        "LastHeartbeatTime": "2018-12-12T05:19:40Z",
+                        "LastTransitionTime": "2018-12-12T02:06:32Z",
+                        "Reason": "KubeletReady",
+                        "Message": "kubelet is posting ready status"
+                    }
+                ],
+                "Addresses": [
+                    {
+                        "Type": "InternalIP",
+                        "Address": "192.168.0.110"
+                    },
+                    {
+                        "Type": "Hostname",
+                        "Address": "192.168.0.110"
+                    },
+                    {
+                        "Type": "DataIP",
+                        "Address": "192.168.0.110"
+                    }
+                ],
+                "DaemonEndpoints": {
+                    "KubeletEndpoint": {
+                        "Port": 10250
+                    }
+                },
+                "NodeInfo": {
+                    "MachineID": "076f7037-7985-4348-b7dc-67bc9e5b0dad",
+                    "SystemUUID": "49AFA70D-86A2-45E8-A071-DC921D7B84A1",
+                    "BootID": "75b666a3-93ce-42cf-aca6-bb0bfeb44d0d",
+                    "KernelVersion": "3.10.0-327.62.59.83.h96.x86_64",
+                    "OSImage": "EulerOS 2.0 (SP2)",
+                    "ContainerRuntimeVersion": "docker://17.6.1",
+                    "KubeletVersion": "v1.11.3-r0-CCE2.0.15.B003",
+                    "KubeProxyVersion": "v1.11.3-r0-CCE2.0.15.B003",
+                    "OperatingSystem": "linux",
+                    "Architecture": "amd64"
+                },
+                "Images": [
+                    {
+                        "Names": [
+                            "100.125.0.198:20202/hwofficial/storage-driver-linux-amd64@sha256:6c580358f5f1c31e633bf1089eeea7873039686662dc37aecbaf1fe4c02019b1",
+                            "100.125.0.198:20202/hwofficial/storage-driver-linux-amd64:1.0.2"
+                        ],
+                        "SizeBytes": 752046726
+                    },
+                    {
+                        "Names": [
+                            "canal-agent:1.0.RC2.SPC9.B010",
+                            "canal-agent:latest"
+                        ],
+                        "SizeBytes": 479161186
+                    },
+                    {
+                        "Names": [
+                            "100.125.0.198:20202/hwofficial/cce-coredns-linux-amd64@sha256:c15280ff57f98e9300d9c65e1ffc31179d962098b0ff9ee44be74758510bf5ee",
+                            "100.125.0.198:20202/hwofficial/cce-coredns-linux-amd64:1.2.3"
+                        ],
+                        "SizeBytes": 322203902
+                    },
+                    {
+                        "Names": [
+                            "euleros:2.2.5"
+                        ],
+                        "SizeBytes": 288596478
+                    },
+                    {
+                        "Names": [
+                            "nginx@sha256:d98b66402922eccdbee49ef093edb2d2c5001637bd291ae0a8cd21bb4c36bebe",
+                            "nginx:latest"
+                        ],
+                        "SizeBytes": 109063596
+                    },
+                    {
+                        "Names": [
+                            "cfe-pause:11.16.1"
+                        ],
+                        "SizeBytes": 350164
+                    }
+                ],
+                "VolumesInUse": null,
+                "VolumesAttached": null
+            }
+        },
+        {
+            "name": "192.168.0.59",
+            "selfLink": "/api/v1/nodes/192.168.0.59",
+            "uid": "90cb58e3-fdb2-11e8-ad14-fa163e4e1734",
+            "resourceVersion": "27952",
+            "creationTimestamp": "2018-12-12T02:06:41Z",
+            "labels": {
+                "beta.kubernetes.io/arch": "amd64",
+                "beta.kubernetes.io/os": "linux",
+                "failure-domain.beta.kubernetes.io/region": "cn-north-1",
+                "failure-domain.beta.kubernetes.io/zone": "cn-north-1c",
+                "kubernetes.io/availablezone": "cn-north-1c",
+                "kubernetes.io/hostname": "192.168.0.59",
+                "os.architecture": "amd64",
+                "os.name": "EulerOS_2.0_SP2",
+                "os.version": "3.10.0-327.62.59.83.h96.x86_64",
+                "supportContainer": "true"
+            },
+            "annotations": {
+                "huawei.com/gpu-status": "[]",
+                "node.alpha.kubernetes.io/ttl": "0"
+            },
+            "Spec": {
+                "PodCIDR": "",
+                "ExternalID": "192.168.0.59",
+                "ProviderID": "bae8fab0-fdb1-11e8-996e-0255ac101f20",
+                "Unschedulable": false,
+                "Taints": null,
+                "ConfigSource": null
+            },
+            "Status": {
+                "Capacity": {
+                    "cpu": "2",
+                    "ephemeral-storage": "10186004Ki",
+                    "hugepages-1Gi": "0",
+                    "hugepages-2Mi": "0",
+                    "memory": "3865340Ki",
+                    "pods": "110"
+                },
+                "Allocatable": {
+                    "cpu": "1930m",
+                    "ephemeral-storage": "9387421271",
+                    "hugepages-1Gi": "0",
+                    "hugepages-2Mi": "0",
+                    "memory": "2136828Ki",
+                    "pods": "110"
+                },
+                "Phase": "Running",
+                "Conditions": [
+                    {
+                        "Type": "OutOfDisk",
+                        "Status": "False",
+                        "LastHeartbeatTime": "2018-12-12T05:19:41Z",
+                        "LastTransitionTime": "2018-12-12T02:06:41Z",
+                        "Reason": "KubeletHasSufficientDisk",
+                        "Message": "kubelet has sufficient disk space available"
+                    },
+                    {
+                        "Type": "MemoryPressure",
+                        "Status": "False",
+                        "LastHeartbeatTime": "2018-12-12T05:19:41Z",
+                        "LastTransitionTime": "2018-12-12T02:06:41Z",
+                        "Reason": "KubeletHasSufficientMemory",
+                        "Message": "kubelet has sufficient memory available"
+                    },
+                    {
+                        "Type": "NetworkCardNotFound",
+                        "Status": "False",
+                        "LastHeartbeatTime": "2018-12-12T05:19:41Z",
+                        "LastTransitionTime": "2018-12-12T02:06:41Z",
+                        "Reason": "NetworkCardFound",
+                        "Message": "network card has found"
+                    },
+                    {
+                        "Type": "DiskPressure",
+                        "Status": "False",
+                        "LastHeartbeatTime": "2018-12-12T05:19:41Z",
+                        "LastTransitionTime": "2018-12-12T02:06:41Z",
+                        "Reason": "KubeletHasNoDiskPressure",
+                        "Message": "kubelet has no disk pressure"
+                    },
+                    {
+                        "Type": "PIDPressure",
+                        "Status": "False",
+                        "LastHeartbeatTime": "2018-12-12T05:19:41Z",
+                        "LastTransitionTime": "2018-12-12T02:06:41Z",
+                        "Reason": "KubeletHasSufficientPID",
+                        "Message": "kubelet has sufficient PID available"
+                    },
+                    {
+                        "Type": "Ready",
+                        "Status": "True",
+                        "LastHeartbeatTime": "2018-12-12T05:19:41Z",
+                        "LastTransitionTime": "2018-12-12T02:06:41Z",
+                        "Reason": "KubeletReady",
+                        "Message": "kubelet is posting ready status"
+                    }
+                ],
+                "Addresses": [
+                    {
+                        "Type": "InternalIP",
+                        "Address": "192.168.0.59"
+                    },
+                    {
+                        "Type": "Hostname",
+                        "Address": "192.168.0.59"
+                    },
+                    {
+                        "Type": "DataIP",
+                        "Address": "192.168.0.59"
+                    }
+                ],
+                "DaemonEndpoints": {
+                    "KubeletEndpoint": {
+                        "Port": 10250
+                    }
+                },
+                "NodeInfo": {
+                    "MachineID": "6dcf5e0a-4c9e-4bee-ab25-3e725cce2399",
+                    "SystemUUID": "4C198002-38C3-48A0-A0F3-7B9BEC6A737D",
+                    "BootID": "c131b90a-e65e-4dec-9d85-7dcc12b77503",
+                    "KernelVersion": "3.10.0-327.62.59.83.h96.x86_64",
+                    "OSImage": "EulerOS 2.0 (SP2)",
+                    "ContainerRuntimeVersion": "docker://17.6.1",
+                    "KubeletVersion": "v1.11.3-r0-CCE2.0.15.B003",
+                    "KubeProxyVersion": "v1.11.3-r0-CCE2.0.15.B003",
+                    "OperatingSystem": "linux",
+                    "Architecture": "amd64"
+                },
+                "Images": [
+                    {
+                        "Names": [
+                            "100.125.0.198:20202/hwofficial/storage-driver-linux-amd64@sha256:6c580358f5f1c31e633bf1089eeea7873039686662dc37aecbaf1fe4c02019b1",
+                            "100.125.0.198:20202/hwofficial/storage-driver-linux-amd64:1.0.2"
+                        ],
+                        "SizeBytes": 752046726
+                    },
+                    {
+                        "Names": [
+                            "canal-agent:1.0.RC2.SPC9.B010",
+                            "canal-agent:latest"
+                        ],
+                        "SizeBytes": 479161186
+                    },
+                    {
+                        "Names": [
+                            "100.125.0.198:20202/hwofficial/cce-coredns-linux-amd64@sha256:c15280ff57f98e9300d9c65e1ffc31179d962098b0ff9ee44be74758510bf5ee",
+                            "100.125.0.198:20202/hwofficial/cce-coredns-linux-amd64:1.2.3"
+                        ],
+                        "SizeBytes": 322203902
+                    },
+                    {
+                        "Names": [
+                            "euleros:2.2.5"
+                        ],
+                        "SizeBytes": 288596478
+                    },
+                    {
+                        "Names": [
+                            "cfe-pause:11.16.1"
+                        ],
+                        "SizeBytes": 350164
+                    }
+                ],
+                "VolumesInUse": null,
+                "VolumesAttached": null
+            }
+        }
+    ]
+}
+{
+    "selfLink": "/api/v1/namespaces/kube-system/events",
+    "resourceVersion": "176",
+    "Items": []
+}
+{
+    "selfLink": "/api/v1/namespaces/kube-system/replicationcontrollers",
+    "resourceVersion": "27970",
+    "Items": []
+}
+{
+    "selfLink": "/api/v1/namespaces/kube-system/services",
+    "resourceVersion": "27970",
+    "Items": [
+        {
+            "name": "coredns",
+            "namespace": "kube-system",
+            "selfLink": "/api/v1/namespaces/kube-system/services/coredns",
+            "uid": "16285a26-fdb3-11e8-850d-fa163e4e1734",
+            "resourceVersion": "708",
+            "creationTimestamp": "2018-12-12T02:10:24Z",
+            "labels": {
+                "app": "coredns",
+                "k8s-app": "coredns",
+                "kubernetes.io/cluster-service": "true",
+                "kubernetes.io/name": "CoreDNS",
+                "release": "cceaddon-coredns"
+            },
+            "annotations": {
+                "prometheus.io/port": "9153",
+                "prometheus.io/scrape": "true"
+            },
+            "Spec": {
+                "Type": "ClusterIP",
+                "Ports": [
+                    {
+                        "Name": "dns",
+                        "Protocol": "UDP",
+                        "Port": 53,
+                        "TargetPort": 5353,
+                        "NodePort": 0
+                    },
+                    {
+                        "Name": "dns-tcp",
+                        "Protocol": "TCP",
+                        "Port": 53,
+                        "TargetPort": 5353,
+                        "NodePort": 0
+                    },
+                    {
+                        "Name": "health",
+                        "Protocol": "TCP",
+                        "Port": 8080,
+                        "TargetPort": 8080,
+                        "NodePort": 0
+                    }
+                ],
+                "Selector": {
+                    "app": "coredns",
+                    "k8s-app": "coredns"
+                },
+                "ClusterIP": "10.247.3.10",
+                "ExternalName": "",
+                "ExternalIPs": null,
+                "LoadBalancerIP": "",
+                "SessionAffinity": "None",
+                "SessionAffinityConfig": null,
+                "LoadBalancerSourceRanges": null,
+                "ExternalTrafficPolicy": "",
+                "HealthCheckNodePort": 0,
+                "PublishNotReadyAddresses": false
+            },
+            "Status": {
+                "LoadBalancer": {
+                    "Ingress": null
+                }
+            }
+        }
+    ]
+}
+{
+    "selfLink": "/apis/extensions/v1beta1/namespaces/kube-system/daemonsets",
+    "resourceVersion": "27970",
+    "Items": [
+        {
+            "name": "icagent",
+            "namespace": "kube-system",
+            "selfLink": "/apis/extensions/v1beta1/namespaces/kube-system/daemonsets/icagent",
+            "uid": "21153933-fdb3-11e8-8654-fa163eb08b6f",
+            "resourceVersion": "829",
+            "generation": 1,
+            "creationTimestamp": "2018-12-12T02:10:43Z",
+            "labels": {
+                "name": "icagent"
+            },
+            "Spec": {
+                "Selector": {
+                    "matchLabels": {
+                        "app": "icagent"
+                    }
+                },
+                "Template": {
+                    "creationTimestamp": null,
+                    "labels": {
+                        "app": "icagent"
+                    },
+                    "annotations": {
+                        "scheduler.alpha.kubernetes.io/tolerations": "[{\"key\":\"beta.k8s.io/accepted-app\",\"operator\":\"Exists\", \"effect\":\"NoSchedule\"}]"
+                    },
+                    "Spec": {
+                        "Volumes": [
+                            {
+                                "Name": "icagent-log",
+                                "HostPath": {
+                                    "Path": "/var/paas/sys/log/ICAgent",
+                                    "Type": ""
+                                },
+                                "EmptyDir": null,
+                                "GCEPersistentDisk": null,
+                                "AWSElasticBlockStore": null,
+                                "GitRepo": null,
+                                "Secret": null,
+                                "NFS": null,
+                                "ISCSI": null,
+                                "Glusterfs": null,
+                                "PersistentVolumeClaim": null,
+                                "RBD": null,
+                                "Quobyte": null,
+                                "FlexVolume": null,
+                                "Cinder": null,
+                                "CephFS": null,
+                                "Flocker": null,
+                                "DownwardAPI": null,
+                                "FC": null,
+                                "AzureFile": null,
+                                "ConfigMap": null,
+                                "VsphereVolume": null,
+                                "AzureDisk": null,
+                                "PhotonPersistentDisk": null,
+                                "Projected": null,
+                                "PortworxVolume": null,
+                                "ScaleIO": null,
+                                "StorageOS": null
+                            }
+                        ],
+                        "InitContainers": null,
+                        "Containers": null,
+                        "RestartPolicy": "Always",
+                        "TerminationGracePeriodSeconds": 30,
+                        "ActiveDeadlineSeconds": null,
+                        "DNSPolicy": "ClusterFirst",
+                        "NodeSelector": null,
+                        "ServiceAccountName": "",
+                        "AutomountServiceAccountToken": null,
+                        "NodeName": "",
+                        "SecurityContext": {
+                            "HostNetwork": false,
+                            "HostPID": false,
+                            "HostIPC": false,
+                            "ShareProcessNamespace": null,
+                            "SELinuxOptions": null,
+                            "RunAsUser": null,
+                            "RunAsGroup": null,
+                            "RunAsNonRoot": null,
+                            "SupplementalGroups": null,
+                            "FSGroup": null
+                        },
+                        "ImagePullSecrets": null,
+                        "Hostname": "",
+                        "Subdomain": "",
+                        "Affinity": null,
+                        "SchedulerName": "default-scheduler",
+                        "Tolerations": null,
+                        "HostAliases": null,
+                        "PriorityClassName": "",
+                        "Priority": null,
+                        "DNSConfig": null
+                    }
+                },
+                "UpdateStrategy": {
+                    "Type": "OnDelete",
+                    "RollingUpdate": null
+                },
+                "MinReadySeconds": 0,
+                "TemplateGeneration": 1,
+                "RevisionHistoryLimit": 10
+            },
+            "Status": {
+                "CurrentNumberScheduled": 2,
+                "NumberMisscheduled": 0,
+                "DesiredNumberScheduled": 2,
+                "NumberReady": 2,
+                "ObservedGeneration": 1,
+                "UpdatedNumberScheduled": 2,
+                "NumberAvailable": 2,
+                "NumberUnavailable": 0,
+                "CollisionCount": null,
+                "Conditions": null
+            }
+        },
+        {
+            "name": "storage-driver",
+            "namespace": "kube-system",
+            "selfLink": "/apis/extensions/v1beta1/namespaces/kube-system/daemonsets/storage-driver",
+            "uid": "144d527c-fdb3-11e8-9079-fa163e19ddd9",
+            "resourceVersion": "854",
+            "generation": 1,
+            "creationTimestamp": "2018-12-12T02:10:21Z",
+            "labels": {
+                "release": "cceaddon-storage-driver"
+            },
+            "Spec": {
+                "Selector": {
+                    "matchLabels": {
+                        "release": "cceaddon-storage-driver"
+                    }
+                },
+                "Template": {
+                    "name": "storage-driver",
+                    "creationTimestamp": null,
+                    "labels": {
+                        "release": "cceaddon-storage-driver"
+                    },
+                    "Spec": {
+                        "Volumes": [
+                            {
+                                "Name": "flexvolume-mount",
+                                "HostPath": {
+                                    "Path": "/usr/libexec/kubernetes/kubelet-plugins/volume/exec/",
+                                    "Type": ""
+                                },
+                                "EmptyDir": null,
+                                "GCEPersistentDisk": null,
+                                "AWSElasticBlockStore": null,
+                                "GitRepo": null,
+                                "Secret": null,
+                                "NFS": null,
+                                "ISCSI": null,
+                                "Glusterfs": null,
+                                "PersistentVolumeClaim": null,
+                                "RBD": null,
+                                "Quobyte": null,
+                                "FlexVolume": null,
+                                "Cinder": null,
+                                "CephFS": null,
+                                "Flocker": null,
+                                "DownwardAPI": null,
+                                "FC": null,
+                                "AzureFile": null,
+                                "ConfigMap": null,
+                                "VsphereVolume": null,
+                                "AzureDisk": null,
+                                "PhotonPersistentDisk": null,
+                                "Projected": null,
+                                "PortworxVolume": null,
+                                "ScaleIO": null,
+                                "StorageOS": null
+                            },
+                            {
+                                "Name": "hosts",
+                                "HostPath": {
+                                    "Path": "/etc/",
+                                    "Type": ""
+                                },
+                                "EmptyDir": null,
+                                "GCEPersistentDisk": null,
+                                "AWSElasticBlockStore": null,
+                                "GitRepo": null,
+                                "Secret": null,
+                                "NFS": null,
+                                "ISCSI": null,
+                                "Glusterfs": null,
+                                "PersistentVolumeClaim": null,
+                                "RBD": null,
+                                "Quobyte": null,
+                                "FlexVolume": null,
+                                "Cinder": null,
+                                "CephFS": null,
+                                "Flocker": null,
+                                "DownwardAPI": null,
+                                "FC": null,
+                                "AzureFile": null,
+                                "ConfigMap": null,
+                                "VsphereVolume": null,
+                                "AzureDisk": null,
+                                "PhotonPersistentDisk": null,
+                                "Projected": null,
+                                "PortworxVolume": null,
+                                "ScaleIO": null,
+                                "StorageOS": null
+                            },
+                            {
+                                "Name": "cluster-conf",
+                                "HostPath": {
+                                    "Path": "/var/paas/conf/cluster.conf",
+                                    "Type": ""
+                                },
+                                "EmptyDir": null,
+                                "GCEPersistentDisk": null,
+                                "AWSElasticBlockStore": null,
+                                "GitRepo": null,
+                                "Secret": null,
+                                "NFS": null,
+                                "ISCSI": null,
+                                "Glusterfs": null,
+                                "PersistentVolumeClaim": null,
+                                "RBD": null,
+                                "Quobyte": null,
+                                "FlexVolume": null,
+                                "Cinder": null,
+                                "CephFS": null,
+                                "Flocker": null,
+                                "DownwardAPI": null,
+                                "FC": null,
+                                "AzureFile": null,
+                                "ConfigMap": null,
+                                "VsphereVolume": null,
+                                "AzureDisk": null,
+                                "PhotonPersistentDisk": null,
+                                "Projected": null,
+                                "PortworxVolume": null,
+                                "ScaleIO": null,
+                                "StorageOS": null
+                            },
+                            {
+                                "Name": "log",
+                                "HostPath": {
+                                    "Path": "/var/paas/sys/log/",
+                                    "Type": ""
+                                },
+                                "EmptyDir": null,
+                                "GCEPersistentDisk": null,
+                                "AWSElasticBlockStore": null,
+                                "GitRepo": null,
+                                "Secret": null,
+                                "NFS": null,
+                                "ISCSI": null,
+                                "Glusterfs": null,
+                                "PersistentVolumeClaim": null,
+                                "RBD": null,
+                                "Quobyte": null,
+                                "FlexVolume": null,
+                                "Cinder": null,
+                                "CephFS": null,
+                                "Flocker": null,
+                                "DownwardAPI": null,
+                                "FC": null,
+                                "AzureFile": null,
+                                "ConfigMap": null,
+                                "VsphereVolume": null,
+                                "AzureDisk": null,
+                                "PhotonPersistentDisk": null,
+                                "Projected": null,
+                                "PortworxVolume": null,
+                                "ScaleIO": null,
+                                "StorageOS": null
+                            },
+                            {
+                                "Name": "fuxi-logrotate",
+                                "HostPath": {
+                                    "Path": "/etc/logrotate.d/",
+                                    "Type": ""
+                                },
+                                "EmptyDir": null,
+                                "GCEPersistentDisk": null,
+                                "AWSElasticBlockStore": null,
+                                "GitRepo": null,
+                                "Secret": null,
+                                "NFS": null,
+                                "ISCSI": null,
+                                "Glusterfs": null,
+                                "PersistentVolumeClaim": null,
+                                "RBD": null,
+                                "Quobyte": null,
+                                "FlexVolume": null,
+                                "Cinder": null,
+                                "CephFS": null,
+                                "Flocker": null,
+                                "DownwardAPI": null,
+                                "FC": null,
+                                "AzureFile": null,
+                                "ConfigMap": null,
+                                "VsphereVolume": null,
+                                "AzureDisk": null,
+                                "PhotonPersistentDisk": null,
+                                "Projected": null,
+                                "PortworxVolume": null,
+                                "ScaleIO": null,
+                                "StorageOS": null
+                            },
+                            {
+                                "Name": "fuxi-bin",
+                                "HostPath": {
+                                    "Path": "/usr/bin/",
+                                    "Type": ""
+                                },
+                                "EmptyDir": null,
+                                "GCEPersistentDisk": null,
+                                "AWSElasticBlockStore": null,
+                                "GitRepo": null,
+                                "Secret": null,
+                                "NFS": null,
+                                "ISCSI": null,
+                                "Glusterfs": null,
+                                "PersistentVolumeClaim": null,
+                                "RBD": null,
+                                "Quobyte": null,
+                                "FlexVolume": null,
+                                "Cinder": null,
+                                "CephFS": null,
+                                "Flocker": null,
+                                "DownwardAPI": null,
+                                "FC": null,
+                                "AzureFile": null,
+                                "ConfigMap": null,
+                                "VsphereVolume": null,
+                                "AzureDisk": null,
+                                "PhotonPersistentDisk": null,
+                                "Projected": null,
+                                "PortworxVolume": null,
+                                "ScaleIO": null,
+                                "StorageOS": null
+                            },
+                            {
+                                "Name": "fuxi-lib",
+                                "HostPath": {
+                                    "Path": "/usr/lib64/",
+                                    "Type": ""
+                                },
+                                "EmptyDir": null,
+                                "GCEPersistentDisk": null,
+                                "AWSElasticBlockStore": null,
+                                "GitRepo": null,
+                                "Secret": null,
+                                "NFS": null,
+                                "ISCSI": null,
+                                "Glusterfs": null,
+                                "PersistentVolumeClaim": null,
+                                "RBD": null,
+                                "Quobyte": null,
+                                "FlexVolume": null,
+                                "Cinder": null,
+                                "CephFS": null,
+                                "Flocker": null,
+                                "DownwardAPI": null,
+                                "FC": null,
+                                "AzureFile": null,
+                                "ConfigMap": null,
+                                "VsphereVolume": null,
+                                "AzureDisk": null,
+                                "PhotonPersistentDisk": null,
+                                "Projected": null,
+                                "PortworxVolume": null,
+                                "ScaleIO": null,
+                                "StorageOS": null
+                            }
+                        ],
+                        "InitContainers": null,
+                        "Containers": [
+                            {
+                                "Name": "storage-driver",
+                                "Image": "100.125.0.198:20202/hwofficial/storage-driver-linux-amd64:1.0.2",
+                                "Command": [
+                                    "/storage/start.sh"
+                                ],
+                                "Args": null,
+                                "WorkingDir": "",
+                                "Ports": null,
+                                "EnvFrom": null,
+                                "Env": [
+                                    {
+                                        "Name": "OBS_URL",
+                                        "Value": "obs.cn-north-1.myhwclouds.com",
+                                        "ValueFrom": null
+                                    }
+                                ],
+                                "Resources": {
+                                    "Limits": null,
+                                    "Requests": null
+                                },
+                                "VolumeMounts": [
+                                    {
+                                        "Name": "flexvolume-mount",
+                                        "ReadOnly": false,
+                                        "MountPath": "/flexmnt",
+                                        "SubPath": "",
+                                        "MountPropagation": null
+                                    },
+                                    {
+                                        "Name": "hosts",
+                                        "ReadOnly": false,
+                                        "MountPath": "/fuxihost",
+                                        "SubPath": "",
+                                        "MountPropagation": null
+                                    },
+                                    {
+                                        "Name": "cluster-conf",
+                                        "ReadOnly": false,
+                                        "MountPath": "/storage/cluster.conf",
+                                        "SubPath": "",
+                                        "MountPropagation": null
+                                    },
+                                    {
+                                        "Name": "log",
+                                        "ReadOnly": false,
+                                        "MountPath": "/var/paas/sys/log/",
+                                        "SubPath": "",
+                                        "MountPropagation": null
+                                    },
+                                    {
+                                        "Name": "fuxi-logrotate",
+                                        "ReadOnly": false,
+                                        "MountPath": "/fuxi-logrotate/",
+                                        "SubPath": "",
+                                        "MountPropagation": null
+                                    },
+                                    {
+                                        "Name": "fuxi-lib",
+                                        "ReadOnly": false,
+                                        "MountPath": "/fuxilib",
+                                        "SubPath": "",
+                                        "MountPropagation": null
+                                    },
+                                    {
+                                        "Name": "fuxi-bin",
+                                        "ReadOnly": false,
+                                        "MountPath": "/fuxibin",
+                                        "SubPath": "",
+                                        "MountPropagation": null
+                                    }
+                                ],
+                                "VolumeDevices": null,
+                                "LivenessProbe": null,
+                                "ReadinessProbe": null,
+                                "Lifecycle": null,
+                                "TerminationMessagePath": "/dev/termination-log",
+                                "TerminationMessagePolicy": "File",
+                                "ImagePullPolicy": "IfNotPresent",
+                                "SecurityContext": {
+                                    "Capabilities": null,
+                                    "Privileged": true,
+                                    "SELinuxOptions": null,
+                                    "RunAsUser": null,
+                                    "RunAsGroup": null,
+                                    "RunAsNonRoot": null,
+                                    "ReadOnlyRootFilesystem": null,
+                                    "AllowPrivilegeEscalation": null
+                                },
+                                "Stdin": false,
+                                "StdinOnce": false,
+                                "TTY": false
+                            }
+                        ],
+                        "RestartPolicy": "Always",
+                        "TerminationGracePeriodSeconds": 30,
+                        "ActiveDeadlineSeconds": null,
+                        "DNSPolicy": "ClusterFirst",
+                        "NodeSelector": {
+                            "supportContainer": "true"
+                        },
+                        "ServiceAccountName": "",
+                        "AutomountServiceAccountToken": null,
+                        "NodeName": "",
+                        "SecurityContext": {
+                            "HostNetwork": false,
+                            "HostPID": false,
+                            "HostIPC": false,
+                            "ShareProcessNamespace": null,
+                            "SELinuxOptions": null,
+                            "RunAsUser": null,
+                            "RunAsGroup": null,
+                            "RunAsNonRoot": null,
+                            "SupplementalGroups": null,
+                            "FSGroup": null
+                        },
+                        "ImagePullSecrets": null,
+                        "Hostname": "",
+                        "Subdomain": "",
+                        "Affinity": null,
+                        "SchedulerName": "default-scheduler",
+                        "Tolerations": null,
+                        "HostAliases": null,
+                        "PriorityClassName": "",
+                        "Priority": null,
+                        "DNSConfig": null
+                    }
+                },
+                "UpdateStrategy": {
+                    "Type": "RollingUpdate",
+                    "RollingUpdate": {
+                        "MaxUnavailable": 1
+                    }
+                },
+                "MinReadySeconds": 0,
+                "TemplateGeneration": 1,
+                "RevisionHistoryLimit": 10
+            },
+            "Status": {
+                "CurrentNumberScheduled": 2,
+                "NumberMisscheduled": 0,
+                "DesiredNumberScheduled": 2,
+                "NumberReady": 2,
+                "ObservedGeneration": 1,
+                "UpdatedNumberScheduled": 2,
+                "NumberAvailable": 2,
+                "NumberUnavailable": 0,
+                "CollisionCount": null,
+                "Conditions": null
+            }
+        }
+    ]
+}
+{
+    "selfLink": "/apis/extensions/v1beta1/namespaces/kube-system/deployments",
+    "resourceVersion": "27972",
+    "Items": [
+        {
+            "name": "coredns",
+            "namespace": "kube-system",
+            "selfLink": "/apis/extensions/v1beta1/namespaces/kube-system/deployments/coredns",
+            "uid": "1629a3bb-fdb3-11e8-850d-fa163e4e1734",
+            "resourceVersion": "791",
+            "generation": 1,
+            "creationTimestamp": "2018-12-12T02:10:24Z",
+            "labels": {
+                "app": "coredns",
+                "k8s-app": "coredns",
+                "kubernetes.io/cluster-service": "true",
+                "kubernetes.io/name": "CoreDNS",
+                "release": "cceaddon-coredns"
+            },
+            "annotations": {
+                "deployment.kubernetes.io/revision": "1"
+            },
+            "Spec": {
+                "Replicas": 2,
+                "Selector": {
+                    "matchLabels": {
+                        "app": "coredns",
+                        "k8s-app": "coredns"
+                    }
+                },
+                "Template": {
+                    "creationTimestamp": null,
+                    "labels": {
+                        "app": "coredns",
+                        "k8s-app": "coredns",
+                        "release": "cceaddon-coredns"
+                    },
+                    "annotations": {
+                        "checksum/config": "3095a9b4028195e7e0b8b22c550bf183d0b7a8a7eba20808b36081d0b39f8b81",
+                        "scheduler.alpha.kubernetes.io/critical-pod": "",
+                        "scheduler.alpha.kubernetes.io/tolerations": "[{\"key\":\"CriticalAddonsOnly\", \"operator\":\"Exists\"}]"
+                    },
+                    "Spec": {
+                        "Volumes": [
+                            {
+                                "Name": "config-volume",
+                                "HostPath": null,
+                                "EmptyDir": null,
+                                "GCEPersistentDisk": null,
+                                "AWSElasticBlockStore": null,
+                                "GitRepo": null,
+                                "Secret": null,
+                                "NFS": null,
+                                "ISCSI": null,
+                                "Glusterfs": null,
+                                "PersistentVolumeClaim": null,
+                                "RBD": null,
+                                "Quobyte": null,
+                                "FlexVolume": null,
+                                "Cinder": null,
+                                "CephFS": null,
+                                "Flocker": null,
+                                "DownwardAPI": null,
+                                "FC": null,
+                                "AzureFile": null,
+                                "ConfigMap": {
+                                    "Name": "coredns",
+                                    "Items": [
+                                        {
+                                            "Key": "Corefile",
+                                            "Path": "Corefile",
+                                            "Mode": null
+                                        }
+                                    ],
+                                    "DefaultMode": 420,
+                                    "Optional": null
+                                },
+                                "VsphereVolume": null,
+                                "AzureDisk": null,
+                                "PhotonPersistentDisk": null,
+                                "Projected": null,
+                                "PortworxVolume": null,
+                                "ScaleIO": null,
+                                "StorageOS": null
+                            }
+                        ],
+                        "InitContainers": null,
+                        "Containers": [
+                            {
+                                "Name": "coredns",
+                                "Image": "100.125.0.198:20202/hwofficial/cce-coredns-linux-amd64:1.2.3",
+                                "Command": null,
+                                "Args": [
+                                    "-conf",
+                                    "/etc/coredns/Corefile"
+                                ],
+                                "WorkingDir": "",
+                                "Ports": [
+                                    {
+                                        "Name": "",
+                                        "HostPort": 0,
+                                        "ContainerPort": 5353,
+                                        "Protocol": "UDP",
+                                        "HostIP": ""
+                                    }
+                                ],
+                                "EnvFrom": null,
+                                "Env": null,
+                                "Resources": {
+                                    "Limits": {
+                                        "cpu": "100m",
+                                        "memory": "128Mi"
+                                    },
+                                    "Requests": {
+                                        "cpu": "100m",
+                                        "memory": "128Mi"
+                                    }
+                                },
+                                "VolumeMounts": [
+                                    {
+                                        "Name": "config-volume",
+                                        "ReadOnly": false,
+                                        "MountPath": "/etc/coredns",
+                                        "SubPath": "",
+                                        "MountPropagation": null
+                                    }
+                                ],
+                                "VolumeDevices": null,
+                                "LivenessProbe": {
+                                    "Exec": null,
+                                    "HTTPGet": {
+                                        "Path": "/health",
+                                        "Port": 8080,
+                                        "Host": "",
+                                        "Scheme": "HTTP",
+                                        "HTTPHeaders": null
+                                    },
+                                    "TCPSocket": null,
+                                    "InitialDelaySeconds": 60,
+                                    "TimeoutSeconds": 5,
+                                    "PeriodSeconds": 10,
+                                    "SuccessThreshold": 1,
+                                    "FailureThreshold": 5
+                                },
+                                "ReadinessProbe": null,
+                                "Lifecycle": null,
+                                "TerminationMessagePath": "/dev/termination-log",
+                                "TerminationMessagePolicy": "File",
+                                "ImagePullPolicy": "IfNotPresent",
+                                "SecurityContext": null,
+                                "Stdin": false,
+                                "StdinOnce": false,
+                                "TTY": false
+                            }
+                        ],
+                        "RestartPolicy": "Always",
+                        "TerminationGracePeriodSeconds": 30,
+                        "ActiveDeadlineSeconds": null,
+                        "DNSPolicy": "Default",
+                        "NodeSelector": null,
+                        "ServiceAccountName": "coredns",
+                        "AutomountServiceAccountToken": null,
+                        "NodeName": "",
+                        "SecurityContext": {
+                            "HostNetwork": false,
+                            "HostPID": false,
+                            "HostIPC": false,
+                            "ShareProcessNamespace": null,
+                            "SELinuxOptions": null,
+                            "RunAsUser": null,
+                            "RunAsGroup": null,
+                            "RunAsNonRoot": null,
+                            "SupplementalGroups": null,
+                            "FSGroup": null
+                        },
+                        "ImagePullSecrets": null,
+                        "Hostname": "",
+                        "Subdomain": "",
+                        "Affinity": null,
+                        "SchedulerName": "default-scheduler",
+                        "Tolerations": null,
+                        "HostAliases": null,
+                        "PriorityClassName": "",
+                        "Priority": null,
+                        "DNSConfig": null
+                    }
+                },
+                "Strategy": {
+                    "Type": "RollingUpdate",
+                    "RollingUpdate": {
+                        "MaxUnavailable": 0,
+                        "MaxSurge": "10%"
+                    }
+                },
+                "MinReadySeconds": 0,
+                "RevisionHistoryLimit": 10,
+                "Paused": false,
+                "RollbackTo": null,
+                "ProgressDeadlineSeconds": 600
+            },
+            "Status": {
+                "ObservedGeneration": 1,
+                "Replicas": 2,
+                "UpdatedReplicas": 2,
+                "ReadyReplicas": 2,
+                "AvailableReplicas": 2,
+                "UnavailableReplicas": 0,
+                "Conditions": [
+                    {
+                        "Type": "Available",
+                        "Status": "True",
+                        "LastUpdateTime": "2018-12-12T02:10:47Z",
+                        "LastTransitionTime": "2018-12-12T02:10:47Z",
+                        "Reason": "MinimumReplicasAvailable",
+                        "Message": "Deployment has minimum availability."
+                    },
+                    {
+                        "Type": "Progressing",
+                        "Status": "True",
+                        "LastUpdateTime": "2018-12-12T02:10:47Z",
+                        "LastTransitionTime": "2018-12-12T02:10:24Z",
+                        "Reason": "NewReplicaSetAvailable",
+                        "Message": "ReplicaSet \"coredns-76d66975c4\" has successfully progressed."
+                    }
+                ],
+                "CollisionCount": null
+            }
+        }
+    ]
+}
+{
+    "selfLink": "/apis/extensions/v1beta1/namespaces/kube-system/replicasets",
+    "resourceVersion": "27973",
+    "Items": [
+        {
+            "name": "coredns-76d66975c4",
+            "namespace": "kube-system",
+            "selfLink": "/apis/extensions/v1beta1/namespaces/kube-system/replicasets/coredns-76d66975c4",
+            "uid": "16457549-fdb3-11e8-8654-fa163eb08b6f",
+            "resourceVersion": "789",
+            "generation": 1,
+            "creationTimestamp": "2018-12-12T02:10:24Z",
+            "labels": {
+                "app": "coredns",
+                "k8s-app": "coredns",
+                "pod-template-hash": "3282253170",
+                "release": "cceaddon-coredns"
+            },
+            "annotations": {
+                "deployment.kubernetes.io/desired-replicas": "2",
+                "deployment.kubernetes.io/max-replicas": "3",
+                "deployment.kubernetes.io/revision": "1"
+            },
+            "ownerReferences": [
+                {
+                    "apiVersion": "apps/v1",
+                    "kind": "Deployment",
+                    "name": "coredns",
+                    "uid": "1629a3bb-fdb3-11e8-850d-fa163e4e1734",
+                    "controller": true,
+                    "blockOwnerDeletion": true
+                }
+            ],
+            "Spec": {
+                "Replicas": 2,
+                "MinReadySeconds": 0,
+                "Selector": {
+                    "matchLabels": {
+                        "app": "coredns",
+                        "k8s-app": "coredns",
+                        "pod-template-hash": "3282253170"
+                    }
+                },
+                "Template": {
+                    "creationTimestamp": null,
+                    "labels": {
+                        "app": "coredns",
+                        "k8s-app": "coredns",
+                        "pod-template-hash": "3282253170",
+                        "release": "cceaddon-coredns"
+                    },
+                    "annotations": {
+                        "checksum/config": "3095a9b4028195e7e0b8b22c550bf183d0b7a8a7eba20808b36081d0b39f8b81",
+                        "scheduler.alpha.kubernetes.io/critical-pod": "",
+                        "scheduler.alpha.kubernetes.io/tolerations": "[{\"key\":\"CriticalAddonsOnly\", \"operator\":\"Exists\"}]"
+                    },
+                    "Spec": {
+                        "Volumes": [
+                            {
+                                "Name": "config-volume",
+                                "HostPath": null,
+                                "EmptyDir": null,
+                                "GCEPersistentDisk": null,
+                                "AWSElasticBlockStore": null,
+                                "GitRepo": null,
+                                "Secret": null,
+                                "NFS": null,
+                                "ISCSI": null,
+                                "Glusterfs": null,
+                                "PersistentVolumeClaim": null,
+                                "RBD": null,
+                                "Quobyte": null,
+                                "FlexVolume": null,
+                                "Cinder": null,
+                                "CephFS": null,
+                                "Flocker": null,
+                                "DownwardAPI": null,
+                                "FC": null,
+                                "AzureFile": null,
+                                "ConfigMap": {
+                                    "Name": "coredns",
+                                    "Items": [
+                                        {
+                                            "Key": "Corefile",
+                                            "Path": "Corefile",
+                                            "Mode": null
+                                        }
+                                    ],
+                                    "DefaultMode": 420,
+                                    "Optional": null
+                                },
+                                "VsphereVolume": null,
+                                "AzureDisk": null,
+                                "PhotonPersistentDisk": null,
+                                "Projected": null,
+                                "PortworxVolume": null,
+                                "ScaleIO": null,
+                                "StorageOS": null
+                            }
+                        ],
+                        "InitContainers": null,
+                        "Containers": [
+                            {
+                                "Name": "coredns",
+                                "Image": "100.125.0.198:20202/hwofficial/cce-coredns-linux-amd64:1.2.3",
+                                "Command": null,
+                                "Args": [
+                                    "-conf",
+                                    "/etc/coredns/Corefile"
+                                ],
+                                "WorkingDir": "",
+                                "Ports": [
+                                    {
+                                        "Name": "",
+                                        "HostPort": 0,
+                                        "ContainerPort": 5353,
+                                        "Protocol": "UDP",
+                                        "HostIP": ""
+                                    }
+                                ],
+                                "EnvFrom": null,
+                                "Env": null,
+                                "Resources": {
+                                    "Limits": {
+                                        "cpu": "100m",
+                                        "memory": "128Mi"
+                                    },
+                                    "Requests": {
+                                        "cpu": "100m",
+                                        "memory": "128Mi"
+                                    }
+                                },
+                                "VolumeMounts": [
+                                    {
+                                        "Name": "config-volume",
+                                        "ReadOnly": false,
+                                        "MountPath": "/etc/coredns",
+                                        "SubPath": "",
+                                        "MountPropagation": null
+                                    }
+                                ],
+                                "VolumeDevices": null,
+                                "LivenessProbe": {
+                                    "Exec": null,
+                                    "HTTPGet": {
+                                        "Path": "/health",
+                                        "Port": 8080,
+                                        "Host": "",
+                                        "Scheme": "HTTP",
+                                        "HTTPHeaders": null
+                                    },
+                                    "TCPSocket": null,
+                                    "InitialDelaySeconds": 60,
+                                    "TimeoutSeconds": 5,
+                                    "PeriodSeconds": 10,
+                                    "SuccessThreshold": 1,
+                                    "FailureThreshold": 5
+                                },
+                                "ReadinessProbe": null,
+                                "Lifecycle": null,
+                                "TerminationMessagePath": "/dev/termination-log",
+                                "TerminationMessagePolicy": "File",
+                                "ImagePullPolicy": "IfNotPresent",
+                                "SecurityContext": null,
+                                "Stdin": false,
+                                "StdinOnce": false,
+                                "TTY": false
+                            }
+                        ],
+                        "RestartPolicy": "Always",
+                        "TerminationGracePeriodSeconds": 30,
+                        "ActiveDeadlineSeconds": null,
+                        "DNSPolicy": "Default",
+                        "NodeSelector": null,
+                        "ServiceAccountName": "coredns",
+                        "AutomountServiceAccountToken": null,
+                        "NodeName": "",
+                        "SecurityContext": {
+                            "HostNetwork": false,
+                            "HostPID": false,
+                            "HostIPC": false,
+                            "ShareProcessNamespace": null,
+                            "SELinuxOptions": null,
+                            "RunAsUser": null,
+                            "RunAsGroup": null,
+                            "RunAsNonRoot": null,
+                            "SupplementalGroups": null,
+                            "FSGroup": null
+                        },
+                        "ImagePullSecrets": null,
+                        "Hostname": "",
+                        "Subdomain": "",
+                        "Affinity": null,
+                        "SchedulerName": "default-scheduler",
+                        "Tolerations": null,
+                        "HostAliases": null,
+                        "PriorityClassName": "",
+                        "Priority": null,
+                        "DNSConfig": null
+                    }
+                }
+            },
+            "Status": {
+                "Replicas": 2,
+                "FullyLabeledReplicas": 2,
+                "ReadyReplicas": 2,
+                "AvailableReplicas": 2,
+                "ObservedGeneration": 1,
+                "Conditions": null
+            }
+        }
+    ]
+}
+{
+    "selfLink": "/api/v1/namespaces/kube-system/pods",
+    "resourceVersion": "27973",
+    "Items": [
+        {
+            "name": "coredns-76d66975c4-6x98w",
+            "generateName": "coredns-76d66975c4-",
+            "namespace": "kube-system",
+            "selfLink": "/api/v1/namespaces/kube-system/pods/coredns-76d66975c4-6x98w",
+            "uid": "1647b7ef-fdb3-11e8-8654-fa163eb08b6f",
+            "resourceVersion": "778",
+            "creationTimestamp": "2018-12-12T02:10:24Z",
+            "labels": {
+                "app": "coredns",
+                "k8s-app": "coredns",
+                "pod-template-hash": "3282253170",
+                "release": "cceaddon-coredns"
+            },
+            "annotations": {
+                "checksum/config": "3095a9b4028195e7e0b8b22c550bf183d0b7a8a7eba20808b36081d0b39f8b81",
+                "kubernetes.io/availablezone": "cn-north-1c",
+                "scheduler.alpha.kubernetes.io/critical-pod": "",
+                "scheduler.alpha.kubernetes.io/tolerations": "[{\"key\":\"CriticalAddonsOnly\", \"operator\":\"Exists\"}]"
+            },
+            "ownerReferences": [
+                {
+                    "apiVersion": "apps/v1",
+                    "kind": "ReplicaSet",
+                    "name": "coredns-76d66975c4",
+                    "uid": "16457549-fdb3-11e8-8654-fa163eb08b6f",
+                    "controller": true,
+                    "blockOwnerDeletion": true
+                }
+            ],
+            "Spec": {
+                "Volumes": [
+                    {
+                        "Name": "config-volume",
+                        "HostPath": null,
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": null,
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": {
+                            "Name": "coredns",
+                            "Items": [
+                                {
+                                    "Key": "Corefile",
+                                    "Path": "Corefile",
+                                    "Mode": null
+                                }
+                            ],
+                            "DefaultMode": 420,
+                            "Optional": null
+                        },
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    },
+                    {
+                        "Name": "coredns-token-h7bgt",
+                        "HostPath": null,
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": {
+                            "SecretName": "coredns-token-h7bgt",
+                            "Items": null,
+                            "DefaultMode": 420,
+                            "Optional": null
+                        },
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    }
+                ],
+                "InitContainers": null,
+                "Containers": [
+                    {
+                        "Name": "coredns",
+                        "Image": "100.125.0.198:20202/hwofficial/cce-coredns-linux-amd64:1.2.3",
+                        "Command": null,
+                        "Args": [
+                            "-conf",
+                            "/etc/coredns/Corefile"
+                        ],
+                        "WorkingDir": "",
+                        "Ports": [
+                            {
+                                "Name": "",
+                                "HostPort": 0,
+                                "ContainerPort": 5353,
+                                "Protocol": "UDP",
+                                "HostIP": ""
+                            }
+                        ],
+                        "EnvFrom": null,
+                        "Env": null,
+                        "Resources": {
+                            "Limits": {
+                                "cpu": "100m",
+                                "memory": "128Mi"
+                            },
+                            "Requests": {
+                                "cpu": "100m",
+                                "memory": "128Mi"
+                            }
+                        },
+                        "VolumeMounts": [
+                            {
+                                "Name": "config-volume",
+                                "ReadOnly": false,
+                                "MountPath": "/etc/coredns",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            },
+                            {
+                                "Name": "coredns-token-h7bgt",
+                                "ReadOnly": true,
+                                "MountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            }
+                        ],
+                        "VolumeDevices": null,
+                        "LivenessProbe": {
+                            "Exec": null,
+                            "HTTPGet": {
+                                "Path": "/health",
+                                "Port": 8080,
+                                "Host": "",
+                                "Scheme": "HTTP",
+                                "HTTPHeaders": null
+                            },
+                            "TCPSocket": null,
+                            "InitialDelaySeconds": 60,
+                            "TimeoutSeconds": 5,
+                            "PeriodSeconds": 10,
+                            "SuccessThreshold": 1,
+                            "FailureThreshold": 5
+                        },
+                        "ReadinessProbe": null,
+                        "Lifecycle": null,
+                        "TerminationMessagePath": "/dev/termination-log",
+                        "TerminationMessagePolicy": "File",
+                        "ImagePullPolicy": "IfNotPresent",
+                        "SecurityContext": null,
+                        "Stdin": false,
+                        "StdinOnce": false,
+                        "TTY": false
+                    }
+                ],
+                "RestartPolicy": "Always",
+                "TerminationGracePeriodSeconds": 30,
+                "ActiveDeadlineSeconds": null,
+                "DNSPolicy": "Default",
+                "NodeSelector": null,
+                "ServiceAccountName": "coredns",
+                "AutomountServiceAccountToken": null,
+                "NodeName": "192.168.0.110",
+                "SecurityContext": {
+                    "HostNetwork": false,
+                    "HostPID": false,
+                    "HostIPC": false,
+                    "ShareProcessNamespace": null,
+                    "SELinuxOptions": null,
+                    "RunAsUser": null,
+                    "RunAsGroup": null,
+                    "RunAsNonRoot": null,
+                    "SupplementalGroups": null,
+                    "FSGroup": null
+                },
+                "ImagePullSecrets": null,
+                "Hostname": "",
+                "Subdomain": "",
+                "Affinity": null,
+                "SchedulerName": "default-scheduler",
+                "Tolerations": [
+                    {
+                        "Key": "node.kubernetes.io/not-ready",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoExecute",
+                        "TolerationSeconds": 300
+                    },
+                    {
+                        "Key": "node.kubernetes.io/unreachable",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoExecute",
+                        "TolerationSeconds": 300
+                    }
+                ],
+                "HostAliases": null,
+                "PriorityClassName": "",
+                "Priority": 0,
+                "DNSConfig": null
+            },
+            "Status": {
+                "Phase": "Running",
+                "Conditions": [
+                    {
+                        "Type": "Initialized",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:10:24Z",
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "Ready",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:10:45Z",
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "ContainersReady",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": null,
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "PodScheduled",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:10:24Z",
+                        "Reason": "",
+                        "Message": ""
+                    }
+                ],
+                "Message": "",
+                "Reason": "",
+                "NominatedNodeName": "",
+                "HostIP": "192.168.0.110",
+                "PodIP": "172.16.0.32",
+                "StartTime": "2018-12-12T02:10:24Z",
+                "QOSClass": "Guaranteed",
+                "InitContainerStatuses": null,
+                "ContainerStatuses": [
+                    {
+                        "Name": "coredns",
+                        "State": {
+                            "Waiting": null,
+                            "Running": {
+                                "StartedAt": "2018-12-12T02:10:43Z"
+                            },
+                            "Terminated": null
+                        },
+                        "LastTerminationState": {
+                            "Waiting": null,
+                            "Running": null,
+                            "Terminated": null
+                        },
+                        "Ready": true,
+                        "RestartCount": 0,
+                        "Image": "100.125.0.198:20202/hwofficial/cce-coredns-linux-amd64:1.2.3",
+                        "ImageID": "docker-pullable://100.125.0.198:20202/hwofficial/cce-coredns-linux-amd64@sha256:c15280ff57f98e9300d9c65e1ffc31179d962098b0ff9ee44be74758510bf5ee",
+                        "ContainerID": "docker://f3e86e22ecda4e2e90d362950749a10f1e383518f3a0e508648ff489203f860a"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "coredns-76d66975c4-l6hgh",
+            "generateName": "coredns-76d66975c4-",
+            "namespace": "kube-system",
+            "selfLink": "/api/v1/namespaces/kube-system/pods/coredns-76d66975c4-l6hgh",
+            "uid": "16466c5b-fdb3-11e8-8654-fa163eb08b6f",
+            "resourceVersion": "788",
+            "creationTimestamp": "2018-12-12T02:10:24Z",
+            "labels": {
+                "app": "coredns",
+                "k8s-app": "coredns",
+                "pod-template-hash": "3282253170",
+                "release": "cceaddon-coredns"
+            },
+            "annotations": {
+                "checksum/config": "3095a9b4028195e7e0b8b22c550bf183d0b7a8a7eba20808b36081d0b39f8b81",
+                "kubernetes.io/availablezone": "cn-north-1c",
+                "scheduler.alpha.kubernetes.io/critical-pod": "",
+                "scheduler.alpha.kubernetes.io/tolerations": "[{\"key\":\"CriticalAddonsOnly\", \"operator\":\"Exists\"}]"
+            },
+            "ownerReferences": [
+                {
+                    "apiVersion": "apps/v1",
+                    "kind": "ReplicaSet",
+                    "name": "coredns-76d66975c4",
+                    "uid": "16457549-fdb3-11e8-8654-fa163eb08b6f",
+                    "controller": true,
+                    "blockOwnerDeletion": true
+                }
+            ],
+            "Spec": {
+                "Volumes": [
+                    {
+                        "Name": "config-volume",
+                        "HostPath": null,
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": null,
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": {
+                            "Name": "coredns",
+                            "Items": [
+                                {
+                                    "Key": "Corefile",
+                                    "Path": "Corefile",
+                                    "Mode": null
+                                }
+                            ],
+                            "DefaultMode": 420,
+                            "Optional": null
+                        },
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    },
+                    {
+                        "Name": "coredns-token-h7bgt",
+                        "HostPath": null,
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": {
+                            "SecretName": "coredns-token-h7bgt",
+                            "Items": null,
+                            "DefaultMode": 420,
+                            "Optional": null
+                        },
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    }
+                ],
+                "InitContainers": null,
+                "Containers": [
+                    {
+                        "Name": "coredns",
+                        "Image": "100.125.0.198:20202/hwofficial/cce-coredns-linux-amd64:1.2.3",
+                        "Command": null,
+                        "Args": [
+                            "-conf",
+                            "/etc/coredns/Corefile"
+                        ],
+                        "WorkingDir": "",
+                        "Ports": [
+                            {
+                                "Name": "",
+                                "HostPort": 0,
+                                "ContainerPort": 5353,
+                                "Protocol": "UDP",
+                                "HostIP": ""
+                            }
+                        ],
+                        "EnvFrom": null,
+                        "Env": null,
+                        "Resources": {
+                            "Limits": {
+                                "cpu": "100m",
+                                "memory": "128Mi"
+                            },
+                            "Requests": {
+                                "cpu": "100m",
+                                "memory": "128Mi"
+                            }
+                        },
+                        "VolumeMounts": [
+                            {
+                                "Name": "config-volume",
+                                "ReadOnly": false,
+                                "MountPath": "/etc/coredns",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            },
+                            {
+                                "Name": "coredns-token-h7bgt",
+                                "ReadOnly": true,
+                                "MountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            }
+                        ],
+                        "VolumeDevices": null,
+                        "LivenessProbe": {
+                            "Exec": null,
+                            "HTTPGet": {
+                                "Path": "/health",
+                                "Port": 8080,
+                                "Host": "",
+                                "Scheme": "HTTP",
+                                "HTTPHeaders": null
+                            },
+                            "TCPSocket": null,
+                            "InitialDelaySeconds": 60,
+                            "TimeoutSeconds": 5,
+                            "PeriodSeconds": 10,
+                            "SuccessThreshold": 1,
+                            "FailureThreshold": 5
+                        },
+                        "ReadinessProbe": null,
+                        "Lifecycle": null,
+                        "TerminationMessagePath": "/dev/termination-log",
+                        "TerminationMessagePolicy": "File",
+                        "ImagePullPolicy": "IfNotPresent",
+                        "SecurityContext": null,
+                        "Stdin": false,
+                        "StdinOnce": false,
+                        "TTY": false
+                    }
+                ],
+                "RestartPolicy": "Always",
+                "TerminationGracePeriodSeconds": 30,
+                "ActiveDeadlineSeconds": null,
+                "DNSPolicy": "Default",
+                "NodeSelector": null,
+                "ServiceAccountName": "coredns",
+                "AutomountServiceAccountToken": null,
+                "NodeName": "192.168.0.59",
+                "SecurityContext": {
+                    "HostNetwork": false,
+                    "HostPID": false,
+                    "HostIPC": false,
+                    "ShareProcessNamespace": null,
+                    "SELinuxOptions": null,
+                    "RunAsUser": null,
+                    "RunAsGroup": null,
+                    "RunAsNonRoot": null,
+                    "SupplementalGroups": null,
+                    "FSGroup": null
+                },
+                "ImagePullSecrets": null,
+                "Hostname": "",
+                "Subdomain": "",
+                "Affinity": null,
+                "SchedulerName": "default-scheduler",
+                "Tolerations": [
+                    {
+                        "Key": "node.kubernetes.io/not-ready",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoExecute",
+                        "TolerationSeconds": 300
+                    },
+                    {
+                        "Key": "node.kubernetes.io/unreachable",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoExecute",
+                        "TolerationSeconds": 300
+                    }
+                ],
+                "HostAliases": null,
+                "PriorityClassName": "",
+                "Priority": 0,
+                "DNSConfig": null
+            },
+            "Status": {
+                "Phase": "Running",
+                "Conditions": [
+                    {
+                        "Type": "Initialized",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:10:24Z",
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "Ready",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:10:47Z",
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "ContainersReady",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": null,
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "PodScheduled",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:10:24Z",
+                        "Reason": "",
+                        "Message": ""
+                    }
+                ],
+                "Message": "",
+                "Reason": "",
+                "NominatedNodeName": "",
+                "HostIP": "192.168.0.59",
+                "PodIP": "172.16.0.48",
+                "StartTime": "2018-12-12T02:10:24Z",
+                "QOSClass": "Guaranteed",
+                "InitContainerStatuses": null,
+                "ContainerStatuses": [
+                    {
+                        "Name": "coredns",
+                        "State": {
+                            "Waiting": null,
+                            "Running": {
+                                "StartedAt": "2018-12-12T02:10:46Z"
+                            },
+                            "Terminated": null
+                        },
+                        "LastTerminationState": {
+                            "Waiting": null,
+                            "Running": null,
+                            "Terminated": null
+                        },
+                        "Ready": true,
+                        "RestartCount": 0,
+                        "Image": "100.125.0.198:20202/hwofficial/cce-coredns-linux-amd64:1.2.3",
+                        "ImageID": "docker-pullable://100.125.0.198:20202/hwofficial/cce-coredns-linux-amd64@sha256:c15280ff57f98e9300d9c65e1ffc31179d962098b0ff9ee44be74758510bf5ee",
+                        "ContainerID": "docker://f53d7a767b1fc66ec33bbcbac0d6c90c078bd5348cacd504fbfa3fbfd0358e58"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "icagent-b7jc5",
+            "generateName": "icagent-",
+            "namespace": "kube-system",
+            "selfLink": "/api/v1/namespaces/kube-system/pods/icagent-b7jc5",
+            "uid": "21172bcc-fdb3-11e8-8654-fa163eb08b6f",
+            "resourceVersion": "828",
+            "creationTimestamp": "2018-12-12T02:10:43Z",
+            "labels": {
+                "app": "icagent",
+                "controller-revision-hash": "3587052999",
+                "pod-template-generation": "1"
+            },
+            "annotations": {
+                "pod.alpha.kubernetes.io/configured.icagent": "true",
+                "pod.alpha.kubernetes.io/installed.icagent": "true",
+                "pod.alpha.kubernetes.io/pulled.icagent": "true",
+                "scheduler.alpha.kubernetes.io/isExclusive": "Ignore",
+                "scheduler.alpha.kubernetes.io/tolerations": "[{\"key\":\"beta.k8s.io/accepted-app\",\"operator\":\"Exists\", \"effect\":\"NoSchedule\"}]"
+            },
+            "ownerReferences": [
+                {
+                    "apiVersion": "apps/v1",
+                    "kind": "DaemonSet",
+                    "name": "icagent",
+                    "uid": "21153933-fdb3-11e8-8654-fa163eb08b6f",
+                    "controller": true,
+                    "blockOwnerDeletion": true
+                }
+            ],
+            "Spec": {
+                "Volumes": [
+                    {
+                        "Name": "icagent-log",
+                        "HostPath": {
+                            "Path": "/var/paas/sys/log/ICAgent",
+                            "Type": ""
+                        },
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": null,
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    },
+                    {
+                        "Name": "default-token-xtfc7",
+                        "HostPath": null,
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": {
+                            "SecretName": "default-token-xtfc7",
+                            "Items": null,
+                            "DefaultMode": 420,
+                            "Optional": null
+                        },
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    }
+                ],
+                "InitContainers": null,
+                "Containers": null,
+                "RestartPolicy": "Always",
+                "TerminationGracePeriodSeconds": 30,
+                "ActiveDeadlineSeconds": null,
+                "DNSPolicy": "ClusterFirst",
+                "NodeSelector": null,
+                "ServiceAccountName": "default",
+                "AutomountServiceAccountToken": null,
+                "NodeName": "192.168.0.110",
+                "SecurityContext": {
+                    "HostNetwork": false,
+                    "HostPID": false,
+                    "HostIPC": false,
+                    "ShareProcessNamespace": null,
+                    "SELinuxOptions": null,
+                    "RunAsUser": null,
+                    "RunAsGroup": null,
+                    "RunAsNonRoot": null,
+                    "SupplementalGroups": null,
+                    "FSGroup": null
+                },
+                "ImagePullSecrets": null,
+                "Hostname": "",
+                "Subdomain": "",
+                "Affinity": null,
+                "SchedulerName": "default-scheduler",
+                "Tolerations": [
+                    {
+                        "Key": "node.kubernetes.io/not-ready",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoExecute",
+                        "TolerationSeconds": null
+                    },
+                    {
+                        "Key": "node.kubernetes.io/unreachable",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoExecute",
+                        "TolerationSeconds": null
+                    },
+                    {
+                        "Key": "node.kubernetes.io/disk-pressure",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoSchedule",
+                        "TolerationSeconds": null
+                    },
+                    {
+                        "Key": "node.kubernetes.io/memory-pressure",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoSchedule",
+                        "TolerationSeconds": null
+                    },
+                    {
+                        "Key": "node.alpha.kubernetes.io/notReady",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoExecute",
+                        "TolerationSeconds": null
+                    }
+                ],
+                "HostAliases": null,
+                "PriorityClassName": "",
+                "Priority": 0,
+                "DNSConfig": null
+            },
+            "Status": {
+                "Phase": "Running",
+                "Conditions": [
+                    {
+                        "Type": "Initialized",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:10:59Z",
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "Ready",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:10:59Z",
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "PodScheduled",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:10:43Z",
+                        "Reason": "",
+                        "Message": ""
+                    }
+                ],
+                "Message": "",
+                "Reason": "",
+                "NominatedNodeName": "",
+                "HostIP": "192.168.0.110",
+                "PodIP": "192.168.0.110",
+                "StartTime": "2018-12-12T02:10:59Z",
+                "QOSClass": "",
+                "InitContainerStatuses": null,
+                "ContainerStatuses": null
+            }
+        },
+        {
+            "name": "icagent-pzqk8",
+            "generateName": "icagent-",
+            "namespace": "kube-system",
+            "selfLink": "/api/v1/namespaces/kube-system/pods/icagent-pzqk8",
+            "uid": "21181b84-fdb3-11e8-8654-fa163eb08b6f",
+            "resourceVersion": "822",
+            "creationTimestamp": "2018-12-12T02:10:43Z",
+            "labels": {
+                "app": "icagent",
+                "controller-revision-hash": "3587052999",
+                "pod-template-generation": "1"
+            },
+            "annotations": {
+                "pod.alpha.kubernetes.io/configured.icagent": "true",
+                "pod.alpha.kubernetes.io/installed.icagent": "true",
+                "pod.alpha.kubernetes.io/pulled.icagent": "true",
+                "scheduler.alpha.kubernetes.io/isExclusive": "Ignore",
+                "scheduler.alpha.kubernetes.io/tolerations": "[{\"key\":\"beta.k8s.io/accepted-app\",\"operator\":\"Exists\", \"effect\":\"NoSchedule\"}]"
+            },
+            "ownerReferences": [
+                {
+                    "apiVersion": "apps/v1",
+                    "kind": "DaemonSet",
+                    "name": "icagent",
+                    "uid": "21153933-fdb3-11e8-8654-fa163eb08b6f",
+                    "controller": true,
+                    "blockOwnerDeletion": true
+                }
+            ],
+            "Spec": {
+                "Volumes": [
+                    {
+                        "Name": "icagent-log",
+                        "HostPath": {
+                            "Path": "/var/paas/sys/log/ICAgent",
+                            "Type": ""
+                        },
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": null,
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    },
+                    {
+                        "Name": "default-token-xtfc7",
+                        "HostPath": null,
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": {
+                            "SecretName": "default-token-xtfc7",
+                            "Items": null,
+                            "DefaultMode": 420,
+                            "Optional": null
+                        },
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    }
+                ],
+                "InitContainers": null,
+                "Containers": null,
+                "RestartPolicy": "Always",
+                "TerminationGracePeriodSeconds": 30,
+                "ActiveDeadlineSeconds": null,
+                "DNSPolicy": "ClusterFirst",
+                "NodeSelector": null,
+                "ServiceAccountName": "default",
+                "AutomountServiceAccountToken": null,
+                "NodeName": "192.168.0.59",
+                "SecurityContext": {
+                    "HostNetwork": false,
+                    "HostPID": false,
+                    "HostIPC": false,
+                    "ShareProcessNamespace": null,
+                    "SELinuxOptions": null,
+                    "RunAsUser": null,
+                    "RunAsGroup": null,
+                    "RunAsNonRoot": null,
+                    "SupplementalGroups": null,
+                    "FSGroup": null
+                },
+                "ImagePullSecrets": null,
+                "Hostname": "",
+                "Subdomain": "",
+                "Affinity": null,
+                "SchedulerName": "default-scheduler",
+                "Tolerations": [
+                    {
+                        "Key": "node.kubernetes.io/not-ready",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoExecute",
+                        "TolerationSeconds": null
+                    },
+                    {
+                        "Key": "node.kubernetes.io/unreachable",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoExecute",
+                        "TolerationSeconds": null
+                    },
+                    {
+                        "Key": "node.kubernetes.io/disk-pressure",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoSchedule",
+                        "TolerationSeconds": null
+                    },
+                    {
+                        "Key": "node.kubernetes.io/memory-pressure",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoSchedule",
+                        "TolerationSeconds": null
+                    },
+                    {
+                        "Key": "node.alpha.kubernetes.io/notReady",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoExecute",
+                        "TolerationSeconds": null
+                    }
+                ],
+                "HostAliases": null,
+                "PriorityClassName": "",
+                "Priority": 0,
+                "DNSConfig": null
+            },
+            "Status": {
+                "Phase": "Running",
+                "Conditions": [
+                    {
+                        "Type": "Initialized",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:10:58Z",
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "Ready",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:10:58Z",
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "PodScheduled",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:10:43Z",
+                        "Reason": "",
+                        "Message": ""
+                    }
+                ],
+                "Message": "",
+                "Reason": "",
+                "NominatedNodeName": "",
+                "HostIP": "192.168.0.59",
+                "PodIP": "192.168.0.59",
+                "StartTime": "2018-12-12T02:10:58Z",
+                "QOSClass": "",
+                "InitContainerStatuses": null,
+                "ContainerStatuses": null
+            }
+        },
+        {
+            "name": "storage-driver-5h9s9",
+            "generateName": "storage-driver-",
+            "namespace": "kube-system",
+            "selfLink": "/api/v1/namespaces/kube-system/pods/storage-driver-5h9s9",
+            "uid": "1458f03a-fdb3-11e8-8654-fa163eb08b6f",
+            "resourceVersion": "858",
+            "creationTimestamp": "2018-12-12T02:10:21Z",
+            "labels": {
+                "controller-revision-hash": "492135838",
+                "pod-template-generation": "1",
+                "release": "cceaddon-storage-driver"
+            },
+            "annotations": {
+                "scheduler.alpha.kubernetes.io/isExclusive": "Ignore"
+            },
+            "ownerReferences": [
+                {
+                    "apiVersion": "apps/v1",
+                    "kind": "DaemonSet",
+                    "name": "storage-driver",
+                    "uid": "144d527c-fdb3-11e8-9079-fa163e19ddd9",
+                    "controller": true,
+                    "blockOwnerDeletion": true
+                }
+            ],
+            "Spec": {
+                "Volumes": [
+                    {
+                        "Name": "flexvolume-mount",
+                        "HostPath": {
+                            "Path": "/usr/libexec/kubernetes/kubelet-plugins/volume/exec/",
+                            "Type": ""
+                        },
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": null,
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    },
+                    {
+                        "Name": "hosts",
+                        "HostPath": {
+                            "Path": "/etc/",
+                            "Type": ""
+                        },
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": null,
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    },
+                    {
+                        "Name": "cluster-conf",
+                        "HostPath": {
+                            "Path": "/var/paas/conf/cluster.conf",
+                            "Type": ""
+                        },
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": null,
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    },
+                    {
+                        "Name": "log",
+                        "HostPath": {
+                            "Path": "/var/paas/sys/log/",
+                            "Type": ""
+                        },
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": null,
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    },
+                    {
+                        "Name": "fuxi-logrotate",
+                        "HostPath": {
+                            "Path": "/etc/logrotate.d/",
+                            "Type": ""
+                        },
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": null,
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    },
+                    {
+                        "Name": "fuxi-bin",
+                        "HostPath": {
+                            "Path": "/usr/bin/",
+                            "Type": ""
+                        },
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": null,
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    },
+                    {
+                        "Name": "fuxi-lib",
+                        "HostPath": {
+                            "Path": "/usr/lib64/",
+                            "Type": ""
+                        },
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": null,
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    },
+                    {
+                        "Name": "default-token-xtfc7",
+                        "HostPath": null,
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": {
+                            "SecretName": "default-token-xtfc7",
+                            "Items": null,
+                            "DefaultMode": 420,
+                            "Optional": null
+                        },
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    }
+                ],
+                "InitContainers": null,
+                "Containers": [
+                    {
+                        "Name": "storage-driver",
+                        "Image": "100.125.0.198:20202/hwofficial/storage-driver-linux-amd64:1.0.2",
+                        "Command": [
+                            "/storage/start.sh"
+                        ],
+                        "Args": null,
+                        "WorkingDir": "",
+                        "Ports": null,
+                        "EnvFrom": null,
+                        "Env": [
+                            {
+                                "Name": "OBS_URL",
+                                "Value": "obs.cn-north-1.myhwclouds.com",
+                                "ValueFrom": null
+                            }
+                        ],
+                        "Resources": {
+                            "Limits": null,
+                            "Requests": null
+                        },
+                        "VolumeMounts": [
+                            {
+                                "Name": "flexvolume-mount",
+                                "ReadOnly": false,
+                                "MountPath": "/flexmnt",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            },
+                            {
+                                "Name": "hosts",
+                                "ReadOnly": false,
+                                "MountPath": "/fuxihost",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            },
+                            {
+                                "Name": "cluster-conf",
+                                "ReadOnly": false,
+                                "MountPath": "/storage/cluster.conf",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            },
+                            {
+                                "Name": "log",
+                                "ReadOnly": false,
+                                "MountPath": "/var/paas/sys/log/",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            },
+                            {
+                                "Name": "fuxi-logrotate",
+                                "ReadOnly": false,
+                                "MountPath": "/fuxi-logrotate/",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            },
+                            {
+                                "Name": "fuxi-lib",
+                                "ReadOnly": false,
+                                "MountPath": "/fuxilib",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            },
+                            {
+                                "Name": "fuxi-bin",
+                                "ReadOnly": false,
+                                "MountPath": "/fuxibin",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            },
+                            {
+                                "Name": "default-token-xtfc7",
+                                "ReadOnly": true,
+                                "MountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            }
+                        ],
+                        "VolumeDevices": null,
+                        "LivenessProbe": null,
+                        "ReadinessProbe": null,
+                        "Lifecycle": null,
+                        "TerminationMessagePath": "/dev/termination-log",
+                        "TerminationMessagePolicy": "File",
+                        "ImagePullPolicy": "IfNotPresent",
+                        "SecurityContext": {
+                            "Capabilities": null,
+                            "Privileged": true,
+                            "SELinuxOptions": null,
+                            "RunAsUser": null,
+                            "RunAsGroup": null,
+                            "RunAsNonRoot": null,
+                            "ReadOnlyRootFilesystem": null,
+                            "AllowPrivilegeEscalation": null
+                        },
+                        "Stdin": false,
+                        "StdinOnce": false,
+                        "TTY": false
+                    }
+                ],
+                "RestartPolicy": "Always",
+                "TerminationGracePeriodSeconds": 30,
+                "ActiveDeadlineSeconds": null,
+                "DNSPolicy": "ClusterFirst",
+                "NodeSelector": {
+                    "supportContainer": "true"
+                },
+                "ServiceAccountName": "default",
+                "AutomountServiceAccountToken": null,
+                "NodeName": "192.168.0.59",
+                "SecurityContext": {
+                    "HostNetwork": false,
+                    "HostPID": false,
+                    "HostIPC": false,
+                    "ShareProcessNamespace": null,
+                    "SELinuxOptions": null,
+                    "RunAsUser": null,
+                    "RunAsGroup": null,
+                    "RunAsNonRoot": null,
+                    "SupplementalGroups": null,
+                    "FSGroup": null
+                },
+                "ImagePullSecrets": null,
+                "Hostname": "",
+                "Subdomain": "",
+                "Affinity": null,
+                "SchedulerName": "default-scheduler",
+                "Tolerations": [
+                    {
+                        "Key": "node.kubernetes.io/not-ready",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoExecute",
+                        "TolerationSeconds": null
+                    },
+                    {
+                        "Key": "node.kubernetes.io/unreachable",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoExecute",
+                        "TolerationSeconds": null
+                    },
+                    {
+                        "Key": "node.kubernetes.io/disk-pressure",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoSchedule",
+                        "TolerationSeconds": null
+                    },
+                    {
+                        "Key": "node.kubernetes.io/memory-pressure",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoSchedule",
+                        "TolerationSeconds": null
+                    }
+                ],
+                "HostAliases": null,
+                "PriorityClassName": "",
+                "Priority": 0,
+                "DNSConfig": null
+            },
+            "Status": {
+                "Phase": "Running",
+                "Conditions": [
+                    {
+                        "Type": "Initialized",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:10:21Z",
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "Ready",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:11:08Z",
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "ContainersReady",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": null,
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "PodScheduled",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:11:09Z",
+                        "Reason": "",
+                        "Message": ""
+                    }
+                ],
+                "Message": "",
+                "Reason": "",
+                "NominatedNodeName": "",
+                "HostIP": "192.168.0.59",
+                "PodIP": "172.16.0.50",
+                "StartTime": "2018-12-12T02:10:21Z",
+                "QOSClass": "BestEffort",
+                "InitContainerStatuses": null,
+                "ContainerStatuses": [
+                    {
+                        "Name": "storage-driver",
+                        "State": {
+                            "Waiting": null,
+                            "Running": {
+                                "StartedAt": "2018-12-12T02:11:07Z"
+                            },
+                            "Terminated": null
+                        },
+                        "LastTerminationState": {
+                            "Waiting": null,
+                            "Running": null,
+                            "Terminated": null
+                        },
+                        "Ready": true,
+                        "RestartCount": 0,
+                        "Image": "100.125.0.198:20202/hwofficial/storage-driver-linux-amd64:1.0.2",
+                        "ImageID": "docker-pullable://100.125.0.198:20202/hwofficial/storage-driver-linux-amd64@sha256:6c580358f5f1c31e633bf1089eeea7873039686662dc37aecbaf1fe4c02019b1",
+                        "ContainerID": "docker://351291701ab6ad6b8b0f04266289d02057f70d7700a6c960d1107b0b6b142113"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "storage-driver-mxgrr",
+            "generateName": "storage-driver-",
+            "namespace": "kube-system",
+            "selfLink": "/api/v1/namespaces/kube-system/pods/storage-driver-mxgrr",
+            "uid": "1457fa0c-fdb3-11e8-8654-fa163eb08b6f",
+            "resourceVersion": "848",
+            "creationTimestamp": "2018-12-12T02:10:21Z",
+            "labels": {
+                "controller-revision-hash": "492135838",
+                "pod-template-generation": "1",
+                "release": "cceaddon-storage-driver"
+            },
+            "annotations": {
+                "scheduler.alpha.kubernetes.io/isExclusive": "Ignore"
+            },
+            "ownerReferences": [
+                {
+                    "apiVersion": "apps/v1",
+                    "kind": "DaemonSet",
+                    "name": "storage-driver",
+                    "uid": "144d527c-fdb3-11e8-9079-fa163e19ddd9",
+                    "controller": true,
+                    "blockOwnerDeletion": true
+                }
+            ],
+            "Spec": {
+                "Volumes": [
+                    {
+                        "Name": "flexvolume-mount",
+                        "HostPath": {
+                            "Path": "/usr/libexec/kubernetes/kubelet-plugins/volume/exec/",
+                            "Type": ""
+                        },
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": null,
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    },
+                    {
+                        "Name": "hosts",
+                        "HostPath": {
+                            "Path": "/etc/",
+                            "Type": ""
+                        },
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": null,
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    },
+                    {
+                        "Name": "cluster-conf",
+                        "HostPath": {
+                            "Path": "/var/paas/conf/cluster.conf",
+                            "Type": ""
+                        },
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": null,
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    },
+                    {
+                        "Name": "log",
+                        "HostPath": {
+                            "Path": "/var/paas/sys/log/",
+                            "Type": ""
+                        },
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": null,
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    },
+                    {
+                        "Name": "fuxi-logrotate",
+                        "HostPath": {
+                            "Path": "/etc/logrotate.d/",
+                            "Type": ""
+                        },
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": null,
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    },
+                    {
+                        "Name": "fuxi-bin",
+                        "HostPath": {
+                            "Path": "/usr/bin/",
+                            "Type": ""
+                        },
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": null,
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    },
+                    {
+                        "Name": "fuxi-lib",
+                        "HostPath": {
+                            "Path": "/usr/lib64/",
+                            "Type": ""
+                        },
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": null,
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    },
+                    {
+                        "Name": "default-token-xtfc7",
+                        "HostPath": null,
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": {
+                            "SecretName": "default-token-xtfc7",
+                            "Items": null,
+                            "DefaultMode": 420,
+                            "Optional": null
+                        },
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    }
+                ],
+                "InitContainers": null,
+                "Containers": [
+                    {
+                        "Name": "storage-driver",
+                        "Image": "100.125.0.198:20202/hwofficial/storage-driver-linux-amd64:1.0.2",
+                        "Command": [
+                            "/storage/start.sh"
+                        ],
+                        "Args": null,
+                        "WorkingDir": "",
+                        "Ports": null,
+                        "EnvFrom": null,
+                        "Env": [
+                            {
+                                "Name": "OBS_URL",
+                                "Value": "obs.cn-north-1.myhwclouds.com",
+                                "ValueFrom": null
+                            }
+                        ],
+                        "Resources": {
+                            "Limits": null,
+                            "Requests": null
+                        },
+                        "VolumeMounts": [
+                            {
+                                "Name": "flexvolume-mount",
+                                "ReadOnly": false,
+                                "MountPath": "/flexmnt",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            },
+                            {
+                                "Name": "hosts",
+                                "ReadOnly": false,
+                                "MountPath": "/fuxihost",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            },
+                            {
+                                "Name": "cluster-conf",
+                                "ReadOnly": false,
+                                "MountPath": "/storage/cluster.conf",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            },
+                            {
+                                "Name": "log",
+                                "ReadOnly": false,
+                                "MountPath": "/var/paas/sys/log/",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            },
+                            {
+                                "Name": "fuxi-logrotate",
+                                "ReadOnly": false,
+                                "MountPath": "/fuxi-logrotate/",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            },
+                            {
+                                "Name": "fuxi-lib",
+                                "ReadOnly": false,
+                                "MountPath": "/fuxilib",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            },
+                            {
+                                "Name": "fuxi-bin",
+                                "ReadOnly": false,
+                                "MountPath": "/fuxibin",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            },
+                            {
+                                "Name": "default-token-xtfc7",
+                                "ReadOnly": true,
+                                "MountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            }
+                        ],
+                        "VolumeDevices": null,
+                        "LivenessProbe": null,
+                        "ReadinessProbe": null,
+                        "Lifecycle": null,
+                        "TerminationMessagePath": "/dev/termination-log",
+                        "TerminationMessagePolicy": "File",
+                        "ImagePullPolicy": "IfNotPresent",
+                        "SecurityContext": {
+                            "Capabilities": null,
+                            "Privileged": true,
+                            "SELinuxOptions": null,
+                            "RunAsUser": null,
+                            "RunAsGroup": null,
+                            "RunAsNonRoot": null,
+                            "ReadOnlyRootFilesystem": null,
+                            "AllowPrivilegeEscalation": null
+                        },
+                        "Stdin": false,
+                        "StdinOnce": false,
+                        "TTY": false
+                    }
+                ],
+                "RestartPolicy": "Always",
+                "TerminationGracePeriodSeconds": 30,
+                "ActiveDeadlineSeconds": null,
+                "DNSPolicy": "ClusterFirst",
+                "NodeSelector": {
+                    "supportContainer": "true"
+                },
+                "ServiceAccountName": "default",
+                "AutomountServiceAccountToken": null,
+                "NodeName": "192.168.0.110",
+                "SecurityContext": {
+                    "HostNetwork": false,
+                    "HostPID": false,
+                    "HostIPC": false,
+                    "ShareProcessNamespace": null,
+                    "SELinuxOptions": null,
+                    "RunAsUser": null,
+                    "RunAsGroup": null,
+                    "RunAsNonRoot": null,
+                    "SupplementalGroups": null,
+                    "FSGroup": null
+                },
+                "ImagePullSecrets": null,
+                "Hostname": "",
+                "Subdomain": "",
+                "Affinity": null,
+                "SchedulerName": "default-scheduler",
+                "Tolerations": [
+                    {
+                        "Key": "node.kubernetes.io/not-ready",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoExecute",
+                        "TolerationSeconds": null
+                    },
+                    {
+                        "Key": "node.kubernetes.io/unreachable",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoExecute",
+                        "TolerationSeconds": null
+                    },
+                    {
+                        "Key": "node.kubernetes.io/disk-pressure",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoSchedule",
+                        "TolerationSeconds": null
+                    },
+                    {
+                        "Key": "node.kubernetes.io/memory-pressure",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoSchedule",
+                        "TolerationSeconds": null
+                    }
+                ],
+                "HostAliases": null,
+                "PriorityClassName": "",
+                "Priority": 0,
+                "DNSConfig": null
+            },
+            "Status": {
+                "Phase": "Running",
+                "Conditions": [
+                    {
+                        "Type": "Initialized",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:10:21Z",
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "Ready",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:11:05Z",
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "ContainersReady",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": null,
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "PodScheduled",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:11:06Z",
+                        "Reason": "",
+                        "Message": ""
+                    }
+                ],
+                "Message": "",
+                "Reason": "",
+                "NominatedNodeName": "",
+                "HostIP": "192.168.0.110",
+                "PodIP": "172.16.0.34",
+                "StartTime": "2018-12-12T02:10:21Z",
+                "QOSClass": "BestEffort",
+                "InitContainerStatuses": null,
+                "ContainerStatuses": [
+                    {
+                        "Name": "storage-driver",
+                        "State": {
+                            "Waiting": null,
+                            "Running": {
+                                "StartedAt": "2018-12-12T02:11:04Z"
+                            },
+                            "Terminated": null
+                        },
+                        "LastTerminationState": {
+                            "Waiting": null,
+                            "Running": null,
+                            "Terminated": null
+                        },
+                        "Ready": true,
+                        "RestartCount": 0,
+                        "Image": "100.125.0.198:20202/hwofficial/storage-driver-linux-amd64:1.0.2",
+                        "ImageID": "docker-pullable://100.125.0.198:20202/hwofficial/storage-driver-linux-amd64@sha256:6c580358f5f1c31e633bf1089eeea7873039686662dc37aecbaf1fe4c02019b1",
+                        "ContainerID": "docker://4b5851e935afc606746edec86280ba40115cca83f577095e968edceb618e955b"
+                    }
+                ]
+            }
+        }
+    ]
+}
+==== START logs for container coredns of pod kube-system/coredns-76d66975c4-6x98w ====
+.:5353
+2018/12/12 02:10:44 [INFO] CoreDNS-1.2.2
+2018/12/12 02:10:44 [INFO] linux/amd64, go1.10.4, 36e04bec
+CoreDNS-1.2.2
+linux/amd64, go1.10.4, 36e04bec
+2018/12/12 02:10:44 [INFO] plugin/reload: Running configuration MD5 = 397d2b4a1a3f3cc8aafd674a916d6035
+==== END logs for container coredns of pod kube-system/coredns-76d66975c4-6x98w ====
+==== START logs for container coredns of pod kube-system/coredns-76d66975c4-l6hgh ====
+.:5353
+2018/12/12 02:10:46 [INFO] CoreDNS-1.2.2
+2018/12/12 02:10:46 [INFO] linux/amd64, go1.10.4, 36e04bec
+CoreDNS-1.2.2
+linux/amd64, go1.10.4, 36e04bec
+2018/12/12 02:10:46 [INFO] plugin/reload: Running configuration MD5 = 397d2b4a1a3f3cc8aafd674a916d6035
+==== END logs for container coredns of pod kube-system/coredns-76d66975c4-l6hgh ====
+==== START logs for container storage-driver of pod kube-system/storage-driver-5h9s9 ====
+./
+./centos7.1/
+./centos7.1/_ossext.so
+./suse12.1/
+./suse12.1/_ossext.so
+./euler2.3/
+./euler2.3/_ossext.so
+The system is euler
+remove  libso.so successfully
+obs_url = obs.cn-north-1.myhwclouds.com
+move  huawei.com~fuxivol successfully
+move  huawei.com~fuxinfs successfully
+move  huawei.com~fuxiobs successfully
+move  huawei.com~fuxiefs successfully
+cp  fuxi.logrotate.conf successfully
+cp  fuxi-nfs.logrotate.conf successfully
+cp  fuxi-obs.logrotate.conf successfully
+cp  fuxi-efs.logrotate.conf successfully
+STORAGEM_URL is 192.168.0.181
+/flexmnt
+install obsfs successfully
+install storage-driver successfully
+==== END logs for container storage-driver of pod kube-system/storage-driver-5h9s9 ====
+==== START logs for container storage-driver of pod kube-system/storage-driver-mxgrr ====
+./
+./centos7.1/
+./centos7.1/_ossext.so
+./suse12.1/
+./suse12.1/_ossext.so
+./euler2.3/
+./euler2.3/_ossext.so
+The system is euler
+remove  libso.so successfully
+obs_url = obs.cn-north-1.myhwclouds.com
+move  huawei.com~fuxivol successfully
+move  huawei.com~fuxinfs successfully
+move  huawei.com~fuxiobs successfully
+move  huawei.com~fuxiefs successfully
+cp  fuxi.logrotate.conf successfully
+cp  fuxi-nfs.logrotate.conf successfully
+cp  fuxi-obs.logrotate.conf successfully
+cp  fuxi-efs.logrotate.conf successfully
+STORAGEM_URL is 192.168.0.181
+/flexmnt
+install obsfs successfully
+install storage-driver successfully
+==== END logs for container storage-driver of pod kube-system/storage-driver-mxgrr ====
+{
+    "selfLink": "/api/v1/namespaces/default/events",
+    "resourceVersion": "176",
+    "Items": []
+}
+{
+    "selfLink": "/api/v1/namespaces/default/replicationcontrollers",
+    "resourceVersion": "27974",
+    "Items": []
+}
+{
+    "selfLink": "/api/v1/namespaces/default/services",
+    "resourceVersion": "27974",
+    "Items": [
+        {
+            "name": "cce21days-app5-svc-huaweicloud",
+            "namespace": "default",
+            "selfLink": "/api/v1/namespaces/default/services/cce21days-app5-svc-huaweicloud",
+            "uid": "6a0f2a34-fdb7-11e8-8654-fa163eb08b6f",
+            "resourceVersion": "5224",
+            "creationTimestamp": "2018-12-12T02:41:23Z",
+            "labels": {
+                "app": "cce21days-app5-svc-huaweicloud"
+            },
+            "Spec": {
+                "Type": "NodePort",
+                "Ports": [
+                    {
+                        "Name": "service0",
+                        "Protocol": "TCP",
+                        "Port": 80,
+                        "TargetPort": 80,
+                        "NodePort": 30477
+                    }
+                ],
+                "Selector": {
+                    "app": "cce21days-app5-pod-huaweicloud"
+                },
+                "ClusterIP": "10.247.118.58",
+                "ExternalName": "",
+                "ExternalIPs": null,
+                "LoadBalancerIP": "",
+                "SessionAffinity": "None",
+                "SessionAffinityConfig": null,
+                "LoadBalancerSourceRanges": null,
+                "ExternalTrafficPolicy": "Cluster",
+                "HealthCheckNodePort": 0,
+                "PublishNotReadyAddresses": false
+            },
+            "Status": {
+                "LoadBalancer": {
+                    "Ingress": null
+                }
+            }
+        },
+        {
+            "name": "kubernetes",
+            "namespace": "default",
+            "selfLink": "/api/v1/namespaces/default/services/kubernetes",
+            "uid": "8d47ee7f-fdb2-11e8-ad14-fa163e4e1734",
+            "resourceVersion": "32",
+            "creationTimestamp": "2018-12-12T02:06:35Z",
+            "labels": {
+                "component": "apiserver",
+                "provider": "kubernetes"
+            },
+            "Spec": {
+                "Type": "ClusterIP",
+                "Ports": [
+                    {
+                        "Name": "https",
+                        "Protocol": "TCP",
+                        "Port": 443,
+                        "TargetPort": 5444,
+                        "NodePort": 0
+                    }
+                ],
+                "Selector": null,
+                "ClusterIP": "10.247.0.1",
+                "ExternalName": "",
+                "ExternalIPs": null,
+                "LoadBalancerIP": "",
+                "SessionAffinity": "None",
+                "SessionAffinityConfig": null,
+                "LoadBalancerSourceRanges": null,
+                "ExternalTrafficPolicy": "",
+                "HealthCheckNodePort": 0,
+                "PublishNotReadyAddresses": false
+            },
+            "Status": {
+                "LoadBalancer": {
+                    "Ingress": null
+                }
+            }
+        }
+    ]
+}
+{
+    "selfLink": "/apis/extensions/v1beta1/namespaces/default/daemonsets",
+    "resourceVersion": "27974",
+    "Items": []
+}
+{
+    "selfLink": "/apis/extensions/v1beta1/namespaces/default/deployments",
+    "resourceVersion": "27974",
+    "Items": []
+}
+{
+    "selfLink": "/apis/extensions/v1beta1/namespaces/default/replicasets",
+    "resourceVersion": "27974",
+    "Items": []
+}
+{
+    "selfLink": "/api/v1/namespaces/default/pods",
+    "resourceVersion": "27974",
+    "Items": [
+        {
+            "name": "cce21days-app5-pod-huaweicloud",
+            "namespace": "default",
+            "selfLink": "/api/v1/namespaces/default/pods/cce21days-app5-pod-huaweicloud",
+            "uid": "20555b49-fdb6-11e8-850d-fa163e4e1734",
+            "resourceVersion": "3917",
+            "creationTimestamp": "2018-12-12T02:32:10Z",
+            "labels": {
+                "app": "cce21days-app5-pod-huaweicloud"
+            },
+            "annotations": {
+                "kubernetes.io/availablezone": "cn-north-1c"
+            },
+            "Spec": {
+                "Volumes": [
+                    {
+                        "Name": "default-token-2xhnr",
+                        "HostPath": null,
+                        "EmptyDir": null,
+                        "GCEPersistentDisk": null,
+                        "AWSElasticBlockStore": null,
+                        "GitRepo": null,
+                        "Secret": {
+                            "SecretName": "default-token-2xhnr",
+                            "Items": null,
+                            "DefaultMode": 420,
+                            "Optional": null
+                        },
+                        "NFS": null,
+                        "ISCSI": null,
+                        "Glusterfs": null,
+                        "PersistentVolumeClaim": null,
+                        "RBD": null,
+                        "Quobyte": null,
+                        "FlexVolume": null,
+                        "Cinder": null,
+                        "CephFS": null,
+                        "Flocker": null,
+                        "DownwardAPI": null,
+                        "FC": null,
+                        "AzureFile": null,
+                        "ConfigMap": null,
+                        "VsphereVolume": null,
+                        "AzureDisk": null,
+                        "PhotonPersistentDisk": null,
+                        "Projected": null,
+                        "PortworxVolume": null,
+                        "ScaleIO": null,
+                        "StorageOS": null
+                    }
+                ],
+                "InitContainers": null,
+                "Containers": [
+                    {
+                        "Name": "container-0",
+                        "Image": "nginx:latest",
+                        "Command": null,
+                        "Args": null,
+                        "WorkingDir": "",
+                        "Ports": null,
+                        "EnvFrom": null,
+                        "Env": null,
+                        "Resources": {
+                            "Limits": null,
+                            "Requests": null
+                        },
+                        "VolumeMounts": [
+                            {
+                                "Name": "default-token-2xhnr",
+                                "ReadOnly": true,
+                                "MountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                                "SubPath": "",
+                                "MountPropagation": null
+                            }
+                        ],
+                        "VolumeDevices": null,
+                        "LivenessProbe": null,
+                        "ReadinessProbe": null,
+                        "Lifecycle": null,
+                        "TerminationMessagePath": "/dev/termination-log",
+                        "TerminationMessagePolicy": "File",
+                        "ImagePullPolicy": "IfNotPresent",
+                        "SecurityContext": null,
+                        "Stdin": false,
+                        "StdinOnce": false,
+                        "TTY": false
+                    }
+                ],
+                "RestartPolicy": "Always",
+                "TerminationGracePeriodSeconds": 30,
+                "ActiveDeadlineSeconds": null,
+                "DNSPolicy": "ClusterFirst",
+                "NodeSelector": null,
+                "ServiceAccountName": "default",
+                "AutomountServiceAccountToken": null,
+                "NodeName": "192.168.0.110",
+                "SecurityContext": {
+                    "HostNetwork": false,
+                    "HostPID": false,
+                    "HostIPC": false,
+                    "ShareProcessNamespace": null,
+                    "SELinuxOptions": null,
+                    "RunAsUser": null,
+                    "RunAsGroup": null,
+                    "RunAsNonRoot": null,
+                    "SupplementalGroups": null,
+                    "FSGroup": null
+                },
+                "ImagePullSecrets": null,
+                "Hostname": "",
+                "Subdomain": "",
+                "Affinity": {
+                    "NodeAffinity": {
+                        "RequiredDuringSchedulingIgnoredDuringExecution": {
+                            "NodeSelectorTerms": [
+                                {
+                                    "MatchExpressions": [
+                                        {
+                                            "Key": "kubernetes.io/hostname",
+                                            "Operator": "In",
+                                            "Values": [
+                                                "192.168.0.110"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "PreferredDuringSchedulingIgnoredDuringExecution": null
+                    },
+                    "PodAffinity": null,
+                    "PodAntiAffinity": null
+                },
+                "SchedulerName": "default-scheduler",
+                "Tolerations": [
+                    {
+                        "Key": "node.kubernetes.io/not-ready",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoExecute",
+                        "TolerationSeconds": 300
+                    },
+                    {
+                        "Key": "node.kubernetes.io/unreachable",
+                        "Operator": "Exists",
+                        "Value": "",
+                        "Effect": "NoExecute",
+                        "TolerationSeconds": 300
+                    }
+                ],
+                "HostAliases": null,
+                "PriorityClassName": "",
+                "Priority": 0,
+                "DNSConfig": null
+            },
+            "Status": {
+                "Phase": "Running",
+                "Conditions": [
+                    {
+                        "Type": "Initialized",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:32:10Z",
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "Ready",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:32:17Z",
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "ContainersReady",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": null,
+                        "Reason": "",
+                        "Message": ""
+                    },
+                    {
+                        "Type": "PodScheduled",
+                        "Status": "True",
+                        "LastProbeTime": null,
+                        "LastTransitionTime": "2018-12-12T02:32:10Z",
+                        "Reason": "",
+                        "Message": ""
+                    }
+                ],
+                "Message": "",
+                "Reason": "",
+                "NominatedNodeName": "",
+                "HostIP": "192.168.0.110",
+                "PodIP": "172.16.0.35",
+                "StartTime": "2018-12-12T02:32:10Z",
+                "QOSClass": "BestEffort",
+                "InitContainerStatuses": null,
+                "ContainerStatuses": [
+                    {
+                        "Name": "container-0",
+                        "State": {
+                            "Waiting": null,
+                            "Running": {
+                                "StartedAt": "2018-12-12T02:32:17Z"
+                            },
+                            "Terminated": null
+                        },
+                        "LastTerminationState": {
+                            "Waiting": null,
+                            "Running": null,
+                            "Terminated": null
+                        },
+                        "Ready": true,
+                        "RestartCount": 0,
+                        "Image": "nginx:latest",
+                        "ImageID": "docker-pullable://nginx@sha256:d98b66402922eccdbee49ef093edb2d2c5001637bd291ae0a8cd21bb4c36bebe",
+                        "ContainerID": "docker://fa1c476357c9fc0300f7cc119a9f2a6981e59124b66634329d4c82490e5a0e58"
+                    }
+                ]
+            }
+        }
+    ]
+}
+==== START logs for container container-0 of pod default/cce21days-app5-pod-huaweicloud ====
+==== END logs for container container-0 of pod default/cce21days-app5-pod-huaweicloud ====
+Cluster info dumped to standard output

@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: cce21days-app5-svc-huaweicloud
+  name: cce21days-app5-svc-huaweicloud
+spec:
+  ports:
+  - name: service0
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+# 选中对应的pod
+    app: cce21days-app5-pod-huaweicloud
+  type: NodePort

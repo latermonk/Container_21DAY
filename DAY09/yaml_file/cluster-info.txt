@@ -1,0 +1,4 @@
+[0;32mKubernetes master[0m is running at [0;33mhttps://49.4.50.198:5443[0m
+[0;32mCoreDNS[0m is running at [0;33mhttps://49.4.50.198:5443/api/v1/namespaces/kube-system/services/coredns:dns/proxy[0m
+
+To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
