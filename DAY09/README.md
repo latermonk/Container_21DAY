@@ -35,3 +35,12 @@ Pod的名称为<cce21days-app5-pod-你的华为云id>
 打卡任务：
 
 将所用命令、Service和Endpoints完整yaml截图上传
+
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY09/PNG/DAY0901.png)
+
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY09/PNG/DAY0902.png)
+
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY09/PNG/DAY0903.png)
+
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY09/PNG/DAY0904.png)
+
