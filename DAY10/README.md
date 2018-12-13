@@ -31,7 +31,7 @@ Day10 容器进阶之Kubernetes 网络管理实战
 截图ingress的yaml和浏览器域名访问坦克大战
 
 注意：本任务完成后，请尽快删除创建的ingress，否则ELB中新创建的EIP会收取费用
-![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY10/PNG/DAY1000.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY10/PNG/DAY1000.jpg)
 ![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY10/PNG/DAY1001.png)
 ![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY10/PNG/DAY1002.png)
 ![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY10/PNG/DAY1003.png)
