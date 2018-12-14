@@ -41,3 +41,7 @@ Deployment的名称为< cce21days-app11-你的华为云id >
 将所用命令、创建的statefulset及pvc完整yaml截图上传
 
 Istio公测审批截图
+
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY11/PNG/DAY1101.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY11/PNG/DAY1102.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY11/PNG/DAY1103.png)
