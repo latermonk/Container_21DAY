@@ -2,6 +2,13 @@
 
 [https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-current-context-em-](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-current-context-em-)
 
+##Server account
+
+[https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/)
+
+[https://kubernetes.io/docs/reference/access-authn-authz/service-accounts-admin/](https://kubernetes.io/docs/reference/access-authn-authz/service-accounts-admin/)
+
+
 
 #DAY13
 @All
