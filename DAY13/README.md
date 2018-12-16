@@ -1,3 +1,9 @@
+#kubectl confi命令
+
+[https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-current-context-em-](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-current-context-em-)
+
+
+#DAY13
 @All
 
 通知：
@@ -29,3 +35,4 @@ Day13 容器进阶之Kubernetes 安全原理分析
 使用只读用户测试读取、删除 pod 并将返回结果截图
 
 ![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY13/PNG/DAY1301.jpg)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY13/PNG/DAY1302.jpg)
