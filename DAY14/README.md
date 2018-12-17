@@ -29,5 +29,14 @@ Day14 容器进阶之Kubernetes 安全实战
 【打卡任务】
 
 在workload01容器中访问workload02，截图网络策略设置前后的访问效果
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY14/PNG/DAY1400.png)
 
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY14/PNG/DAY1401.png)
 
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY14/PNG/DAY1402.png)
+
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY14/PNG/DAY1403.png)
+
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY14/PNG/DAY1404.png)
+
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY14/PNG/DAY1405.png)
