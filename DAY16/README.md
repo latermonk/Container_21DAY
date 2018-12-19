@@ -33,3 +33,7 @@ Day16 容器进阶之Istio灰度发布任务的介绍与实践
 按照步骤5，点击productpage 并且多次刷新，只要刷到红色星星
 
 即证明v2版本可以被访问了，截图即可。
+
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY16/PNG/DAY1601.png)
+
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY16/PNG/DAY1602.png)
