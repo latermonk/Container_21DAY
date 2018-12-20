@@ -29,3 +29,7 @@ Day17 容器进阶之Istio流量治理与全景监控实践
 【实践练习】
 
 灵活使用负载均衡算法以及流量监控的功能观察应用的状态。
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY17/PNG/DAY1701.jpg)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY17/PNG/DAY1702.jpg)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY17/PNG/DAY1703.jpg)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY17/PNG/DAY1704.jpg)
