@@ -23,3 +23,8 @@ https://education.huaweicloud.com:8443/courses/course-v1:HuaweiX+CBUCNXI010+Self
 【打卡任务】
 请在打卡程序中，以文字形式简单回答以上两个问题即可（最少20字）
 
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY18/PNG/DAY1801.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY18/PNG/DAY1802.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY18/PNG/DAY1803.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY18/PNG/DAY1804.png)
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY18/PNG/DAY1805.png)
