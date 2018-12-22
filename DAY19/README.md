@@ -30,5 +30,8 @@ Day19 容器应用之基于containerOps进行容器化交付
 
 将最终执行结果的页面截图进行打卡
 
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY19/PNG/DAY1901.jpg)
+
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY19/PNG/DAY1902.jpg)
 
 
