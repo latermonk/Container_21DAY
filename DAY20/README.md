@@ -21,3 +21,4 @@ https://education.huaweicloud.com:8443/courses/course-v1:HuaweiX+CBUCNXI010+Self
 【打卡任务】
 将以下页面截图进行打卡
 
+![](https://raw.githubusercontent.com/latermonk/Container_21DAY/master/DAY20/PNG/DAY2001.png)
