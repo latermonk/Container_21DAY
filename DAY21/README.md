@@ -31,7 +31,7 @@ https://education.huaweicloud.com:8443/courses/course-v1:HuaweiX+CBUCNXI010+Self
 将最终执行成功堆栈的详情页面截图进行打卡
 
 
-passWord@2018!
+
 
 
 
